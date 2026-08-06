@@ -1,0 +1,607 @@
+{
+  "theme": "fashion",
+  "description": "Hand-crafted Fashion-related conversations; English-only; each conversation has 6–12 turns (always even); scenarios cover styling, shopping advice, color matching, event outfits, and seasonal trends.",
+  "conversations": [
+    {
+      "id": "fashion_usercrafted_001",
+      "scenario": "Choosing an outfit for a business dinner",
+      "turns": [
+        { "role": "user", "content": "I have a business dinner tomorrow. What should I wear?" },
+        { "role": "agent", "content": "A tailored suit in navy or charcoal is always a safe choice. Pair it with a crisp white shirt and polished shoes." },
+        { "role": "user", "content": "Would a tie be necessary?" },
+        { "role": "agent", "content": "Yes, unless the invitation specifies business casual. A subtle patterned tie adds professionalism without being too flashy." },
+        { "role": "user", "content": "What about accessories?" },
+        { "role": "agent", "content": "Keep them minimal. A classic watch and a belt that matches your shoes are enough." }
+      ]
+    },
+    {
+      "id": "fashion_usercrafted_002",
+      "scenario": "Planning outfits for a beach vacation",
+      "turns": [
+        { "role": "user", "content": "I’m going on a beach vacation. What should I pack?" },
+        { "role": "agent", "content": "Lightweight linen shirts, breathable shorts, swimsuits, and sandals are must-haves. Don’t forget a wide-brimmed hat and sunglasses." },
+        { "role": "user", "content": "Should I bring formal clothes too?" },
+        { "role": "agent", "content": "Pack at least one smart casual outfit—like a sundress or a polo with chinos—for dinners or nicer venues." },
+        { "role": "user", "content": "What colors work best for the beach?" },
+        { "role": "agent", "content": "Bright colors like turquoise, coral, and white look vibrant against the sea and sand." }
+      ]
+    },
+    {
+      "id": "fashion_usercrafted_003",
+      "scenario": "Selecting shoes for a wedding guest outfit",
+      "turns": [
+        { "role": "user", "content": "I’m attending a wedding. What kind of shoes should I wear with a cocktail dress?" },
+        { "role": "agent", "content": "Classic heels in nude, black, or metallic shades are perfect. They elongate your legs and pair well with most dresses." },
+        { "role": "user", "content": "Can I wear flats instead?" },
+        { "role": "agent", "content": "Yes, elegant ballet flats or embellished sandals can work, especially if you’ll be dancing a lot." },
+        { "role": "user", "content": "Should the shoes match the dress?" },
+        { "role": "agent", "content": "Not exactly. They should complement the outfit. Metallics or neutrals are versatile choices." }
+      ]
+    },
+    {
+      "id": "fashion_usercrafted_004",
+      "scenario": "Building a minimalist wardrobe",
+      "turns": [
+        { "role": "user", "content": "I want to simplify my closet. How do I build a minimalist wardrobe?" },
+        { "role": "agent", "content": "Start with timeless basics—white shirts, black trousers, a navy blazer, and neutral sweaters. Choose versatile pieces that mix and match." },
+        { "role": "user", "content": "How many items should I aim for?" },
+        { "role": "agent", "content": "Around 30 to 40 key pieces can cover most occasions if chosen carefully." },
+        { "role": "user", "content": "What about accessories?" },
+        { "role": "agent", "content": "Stick to essentials like a leather belt, a quality watch, and one or two neutral bags." }
+      ]
+    },
+    {
+      "id": "fashion_usercrafted_005",
+      "scenario": "Dressing for a first date",
+      "turns": [
+        { "role": "user", "content": "What should I wear on a first date to make a good impression?" },
+        { "role": "agent", "content": "Go for something polished yet approachable. A nice button-down shirt with dark jeans and clean shoes works well." },
+        { "role": "user", "content": "Is a blazer too formal?" },
+        { "role": "agent", "content": "Not if you style it casually—try it with a T-shirt and sneakers for a balanced look." },
+        { "role": "user", "content": "Any tips for accessories?" },
+        { "role": "agent", "content": "Keep it subtle. A watch or simple necklace is enough. You don’t want to overdo it." }
+      ]
+    },
+    {
+      "id": "fashion_usercrafted_006",
+      "scenario": "Styling an interview outfit",
+      "turns": [
+        { "role": "user", "content": "I have a job interview. What outfit is appropriate?" },
+        { "role": "agent", "content": "A tailored suit or a structured dress with a blazer is ideal. Stick to neutral tones like navy, gray, or black." },
+        { "role": "user", "content": "What about shoes?" },
+        { "role": "agent", "content": "Closed-toe shoes like pumps or loafers look professional. Make sure they’re polished and comfortable." },
+        { "role": "user", "content": "Should I wear bold colors?" },
+        { "role": "agent", "content": "Keep colors subtle. You can add a touch of personality with a scarf or tie." }
+      ]
+    },
+    {
+      "id": "fashion_usercrafted_007",
+      "scenario": "Shopping for winter coats",
+      "turns": [
+        { "role": "user", "content": "I need a new winter coat. What style should I buy?" },
+        { "role": "agent", "content": "Wool coats are timeless and versatile. For harsher climates, a down parka provides warmth without sacrificing style." },
+        { "role": "user", "content": "What colors work best?" },
+        { "role": "agent", "content": "Black, navy, camel, and gray are classics. They pair well with almost everything." },
+        { "role": "user", "content": "Is it worth investing in a designer coat?" },
+        { "role": "agent", "content": "If you’ll wear it for years, yes. Quality coats hold up better and stay stylish longer." }
+      ]
+    },
+    {
+      "id": "fashion_usercrafted_008",
+      "scenario": "Choosing gym outfits",
+      "turns": [
+        { "role": "user", "content": "What should I wear to the gym to stay comfortable and stylish?" },
+        { "role": "agent", "content": "Opt for breathable fabrics like moisture-wicking polyester. A fitted T-shirt and flexible leggings or shorts work well." },
+        { "role": "user", "content": "Are branded sportswear worth it?" },
+        { "role": "agent", "content": "Not always. Focus on comfort and durability. Some affordable brands perform just as well." },
+        { "role": "user", "content": "What about shoes?" },
+        { "role": "agent", "content": "Choose based on activity—running shoes for cardio, flat sneakers for weightlifting." }
+      ]
+    },
+    {
+      "id": "fashion_usercrafted_009",
+      "scenario": "Picking accessories for an evening gown",
+      "turns": [
+        { "role": "user", "content": "I’m wearing a black evening gown. What accessories should I choose?" },
+        { "role": "agent", "content": "Silver or diamond jewelry complements black beautifully. Go for statement earrings or a delicate necklace." },
+        { "role": "user", "content": "Should I carry a big bag?" },
+        { "role": "agent", "content": "No, a clutch is more appropriate. Metallic or jeweled clutches add elegance." },
+        { "role": "user", "content": "What about shoes?" },
+        { "role": "agent", "content": "Strappy heels in silver or nude will complete the look without drawing attention away from the dress." }
+      ]
+    },
+    {
+      "id": "fashion_usercrafted_010",
+      "scenario": "Planning outfits for a music festival",
+      "turns": [
+        { "role": "user", "content": "I’m going to a music festival. What should I wear?" },
+        { "role": "agent", "content": "Go for something fun and practical—denim shorts, crop tops, and comfortable boots or sneakers." },
+        { "role": "user", "content": "Should I bring layers?" },
+        { "role": "agent", "content": "Yes, festivals often run late. A lightweight jacket or flannel tied around your waist is useful." },
+        { "role": "user", "content": "What about accessories?" },
+        { "role": "agent", "content": "Sunglasses, a crossbody bag, and some bold jewelry can elevate the outfit." }
+      ]
+    },
+      {
+        "id": "fashion_usercrafted_011",
+        "scenario": "Finding sustainable fashion options",
+        "turns": [
+          { "role": "user", "content": "I want to shop more sustainably. Where should I start?" },
+          { "role": "agent", "content": "Look for brands that use organic fabrics, recycled materials, and transparent supply chains." },
+          { "role": "user", "content": "Are thrift shops a good option?" },
+          { "role": "agent", "content": "Absolutely. Thrifting extends the life of clothes and reduces waste." },
+          { "role": "user", "content": "What about fast fashion brands?" },
+          { "role": "agent", "content": "It’s best to avoid them when possible. Their production often contributes to overconsumption and waste." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_012",
+        "scenario": "Styling casual Friday at work",
+        "turns": [
+          { "role": "user", "content": "What should I wear on casual Fridays at the office?" },
+          { "role": "agent", "content": "Dark jeans or chinos with a polo or button-down shirt works well. Add loafers or clean sneakers." },
+          { "role": "user", "content": "Is a T-shirt too casual?" },
+          { "role": "agent", "content": "Plain T-shirts under a blazer can work, but avoid loud graphics in professional settings." },
+          { "role": "user", "content": "Should I still tuck in my shirt?" },
+          { "role": "agent", "content": "Yes, it maintains polish even in a relaxed dress code." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_013",
+        "scenario": "Choosing colors for a photoshoot",
+        "turns": [
+          { "role": "user", "content": "I have a photoshoot. What colors photograph best?" },
+          { "role": "agent", "content": "Solid, bold colors like red, blue, and emerald green stand out. Avoid small patterns that distort on camera." },
+          { "role": "user", "content": "What about neutral tones?" },
+          { "role": "agent", "content": "They work too, especially beige or gray, but balance them with accessories to avoid looking flat." },
+          { "role": "user", "content": "Should I match the background?" },
+          { "role": "agent", "content": "Complement it instead. Contrast usually creates better visual impact." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_014",
+        "scenario": "Finding the right pair of jeans",
+        "turns": [
+          { "role": "user", "content": "I can never find jeans that fit well. Any advice?" },
+          { "role": "agent", "content": "Know your body type. Slim fits flatter lean builds, while straight or relaxed fits suit broader frames." },
+          { "role": "user", "content": "Are high-waisted jeans back in style?" },
+          { "role": "agent", "content": "Yes, they’re very popular and elongate the legs. They pair well with cropped tops." },
+          { "role": "user", "content": "Should I invest in premium denim?" },
+          { "role": "agent", "content": "If you wear jeans often, yes. Premium denim lasts longer and molds to your body." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_015",
+        "scenario": "Outfit planning for a job in a creative industry",
+        "turns": [
+          { "role": "user", "content": "I’m starting a job in a creative field. What should I wear?" },
+          { "role": "agent", "content": "Creative workplaces allow more expression. Try mixing smart basics with bold accessories or patterns." },
+          { "role": "user", "content": "Would sneakers be acceptable?" },
+          { "role": "agent", "content": "Yes, stylish sneakers are common, but keep them clean and modern." },
+          { "role": "user", "content": "Should I still wear blazers?" },
+          { "role": "agent", "content": "Blazers in relaxed cuts or unusual fabrics can add professionalism without looking stiff." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_016",
+        "scenario": "Choosing a handbag for daily use",
+        "turns": [
+          { "role": "user", "content": "I need a handbag for everyday use. What should I look for?" },
+          { "role": "agent", "content": "Opt for a medium-sized tote or satchel in a neutral color. Look for durable leather or sturdy fabric." },
+          { "role": "user", "content": "Should I buy trendy or classic?" },
+          { "role": "agent", "content": "A classic design gives longevity. You can always add trendy accents with scarves or charms." },
+          { "role": "user", "content": "Is black always the safest choice?" },
+          { "role": "agent", "content": "Black is versatile, but taupe, navy, or burgundy can also complement most wardrobes." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_017",
+        "scenario": "Dressing for winter holidays",
+        "turns": [
+          { "role": "user", "content": "What should I wear to a family Christmas dinner?" },
+          { "role": "agent", "content": "Opt for something cozy but polished, like a knit sweater with tailored pants or a festive dress." },
+          { "role": "user", "content": "Should I go for red and green?" },
+          { "role": "agent", "content": "They’re traditional, but deep burgundy, emerald, or gold can feel festive without being cliché." },
+          { "role": "user", "content": "Any tips for accessories?" },
+          { "role": "agent", "content": "Add subtle sparkle—gold earrings or a statement necklace—to elevate the holiday mood." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_018",
+        "scenario": "Finding office-appropriate summer wear",
+        "turns": [
+          { "role": "user", "content": "How can I stay cool at work in summer without looking too casual?" },
+          { "role": "agent", "content": "Choose breathable fabrics like linen or cotton. Midi dresses, light blouses, and ankle trousers are great options." },
+          { "role": "user", "content": "What about sleeveless tops?" },
+          { "role": "agent", "content": "They can work if styled modestly with cardigans or blazers when needed." },
+          { "role": "user", "content": "Should I avoid sandals?" },
+          { "role": "agent", "content": "In most offices, yes. Opt for loafers, slingbacks, or closed-toe flats instead." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_019",
+        "scenario": "Choosing jewelry for everyday wear",
+        "turns": [
+          { "role": "user", "content": "What kind of jewelry should I wear daily?" },
+          { "role": "agent", "content": "Simple pieces like stud earrings, thin chains, or minimalist rings work well every day." },
+          { "role": "user", "content": "Should I buy real gold or silver?" },
+          { "role": "agent", "content": "If your budget allows, real metals last longer and don’t tarnish easily. But quality plated pieces can also work." },
+          { "role": "user", "content": "How do I mix metals?" },
+          { "role": "agent", "content": "Mixing is stylish now—layer gold and silver carefully by balancing proportions." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_020",
+        "scenario": "Planning outfits for a long flight",
+        "turns": [
+          { "role": "user", "content": "What should I wear on a 12-hour flight to stay comfortable?" },
+          { "role": "agent", "content": "Go for soft joggers or leggings, layered with a T-shirt and cardigan. Slip-on shoes make security easier." },
+          { "role": "user", "content": "Do I need compression socks?" },
+          { "role": "agent", "content": "Yes, they’re great for circulation on long flights and prevent swelling." },
+          { "role": "user", "content": "Should I still look stylish?" },
+          { "role": "agent", "content": "Absolutely. Neutral athleisure pieces can be comfortable yet put-together." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_021",
+        "scenario": "Selecting outfits for a summer wedding",
+        "turns": [
+          { "role": "user", "content": "I’m invited to a summer wedding. What’s appropriate to wear?" },
+          { "role": "agent", "content": "Lightweight fabrics like chiffon or linen are perfect. For women, a floral dress works well, and for men, a light-colored suit is great." },
+          { "role": "user", "content": "Should I avoid black?" },
+          { "role": "agent", "content": "Yes, black feels too heavy for summer weddings. Opt for pastel or bright colors instead." },
+          { "role": "user", "content": "What about shoes for outdoor venues?" },
+          { "role": "agent", "content": "Choose wedges or block heels for women, and loafers or dress shoes with rubber soles for men to avoid sinking into grass." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_022",
+        "scenario": "Transitioning from day to night outfits",
+        "turns": [
+          { "role": "user", "content": "How can I turn my office outfit into something for evening drinks?" },
+          { "role": "agent", "content": "Swap your flats for heels, add statement jewelry, and apply bolder lipstick. For men, ditch the tie and roll up the sleeves." },
+          { "role": "user", "content": "Should I bring a different jacket?" },
+          { "role": "agent", "content": "A leather or cropped jacket instantly transforms a daytime look into something edgier for the evening." },
+          { "role": "user", "content": "What about bags?" },
+          { "role": "agent", "content": "Switch your work tote for a small clutch or crossbody for a sleeker look." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_023",
+        "scenario": "Buying the right sunglasses",
+        "turns": [
+          { "role": "user", "content": "How do I choose sunglasses that fit my face shape?" },
+          { "role": "agent", "content": "Round faces suit square or rectangular frames, while square faces look good with rounder styles. Oval faces can wear almost any shape." },
+          { "role": "user", "content": "What about oversized glasses?" },
+          { "role": "agent", "content": "They can work well, but balance them with your features. Make sure they don’t overwhelm your face." },
+          { "role": "user", "content": "Are polarized lenses worth it?" },
+          { "role": "agent", "content": "Yes, they reduce glare and protect your eyes, especially if you spend time outdoors." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_024",
+        "scenario": "Layering clothes for autumn",
+        "turns": [
+          { "role": "user", "content": "What’s the key to layering clothes in autumn without looking bulky?" },
+          { "role": "agent", "content": "Use thin but warm fabrics like merino wool. Start with a base layer, add a shirt or sweater, and finish with a jacket." },
+          { "role": "user", "content": "Can I mix textures?" },
+          { "role": "agent", "content": "Definitely. Combining leather, knits, and denim adds depth and keeps the look interesting." },
+          { "role": "user", "content": "Should scarves match the outfit?" },
+          { "role": "agent", "content": "They don’t have to match exactly—contrasting scarves can become a stylish accent." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_025",
+        "scenario": "Choosing outfits for a date night",
+        "turns": [
+          { "role": "user", "content": "What’s a good outfit idea for a dinner date?" },
+          { "role": "agent", "content": "For women, a midi dress with heels works well. For men, dark jeans with a blazer and loafers is a great balance of smart and casual." },
+          { "role": "user", "content": "Should I wear bold colors?" },
+          { "role": "agent", "content": "Yes, but balance them with neutrals. A red dress or a bold shirt can be striking." },
+          { "role": "user", "content": "What about fragrance?" },
+          { "role": "agent", "content": "A subtle fragrance leaves a lasting impression. Choose something light and not overpowering." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_026",
+        "scenario": "Mixing patterns in outfits",
+        "turns": [
+          { "role": "user", "content": "I always avoid mixing patterns. How can I do it properly?" },
+          { "role": "agent", "content": "Start with simple combinations, like stripes with florals. Keep the color palette consistent." },
+          { "role": "user", "content": "What if both patterns are bold?" },
+          { "role": "agent", "content": "Balance them with neutral pieces in between, like a solid-colored blazer or trousers." },
+          { "role": "user", "content": "Is it suitable for work?" },
+          { "role": "agent", "content": "In creative fields, yes. For corporate settings, stick to subtle patterns like pinstripes or checks." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_027",
+        "scenario": "Choosing the right suit",
+        "turns": [
+          { "role": "user", "content": "I need a new suit. How do I choose the right one?" },
+          { "role": "agent", "content": "Fit is most important. Shoulders should align, and the jacket should taper at the waist. Navy and charcoal are versatile colors." },
+          { "role": "user", "content": "What about slim fit vs regular fit?" },
+          { "role": "agent", "content": "Slim fit works for leaner builds, while regular fit provides more comfort and classic style." },
+          { "role": "user", "content": "Is it worth tailoring?" },
+          { "role": "agent", "content": "Yes, tailoring makes even affordable suits look expensive and polished." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_028",
+        "scenario": "Choosing shoes for everyday workwear",
+        "turns": [
+          { "role": "user", "content": "I need shoes for everyday office wear. Any suggestions?" },
+          { "role": "agent", "content": "Loafers, brogues, or low block heels are comfortable yet professional. Stick to black, brown, or navy." },
+          { "role": "user", "content": "Are sneakers acceptable?" },
+          { "role": "agent", "content": "In some modern offices, yes, if they’re clean and minimalist. White leather sneakers are a safe option." },
+          { "role": "user", "content": "How many pairs should I rotate?" },
+          { "role": "agent", "content": "At least two or three, so you can rest them and extend their lifespan." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_029",
+        "scenario": "Finding the right perfume",
+        "turns": [
+          { "role": "user", "content": "I want a signature perfume. How do I choose one?" },
+          { "role": "agent", "content": "Test different scent families—floral, woody, citrus, oriental—to see what resonates with you." },
+          { "role": "user", "content": "Should I wear it every day?" },
+          { "role": "agent", "content": "Yes, but apply lightly for daily use. Save heavier scents for evenings." },
+          { "role": "user", "content": "Do designer perfumes last longer?" },
+          { "role": "agent", "content": "Often yes, because of higher-quality ingredients and concentration levels." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_030",
+        "scenario": "Shopping for ethical fashion",
+        "turns": [
+          { "role": "user", "content": "I want to shop ethically. What should I look for in brands?" },
+          { "role": "agent", "content": "Check for fair labor certifications, sustainable fabrics, and transparent sourcing information." },
+          { "role": "user", "content": "Are organic fabrics better?" },
+          { "role": "agent", "content": "Yes, organic cotton and hemp are eco-friendly choices that also feel comfortable." },
+          { "role": "user", "content": "Is second-hand shopping ethical too?" },
+          { "role": "agent", "content": "Absolutely, buying second-hand reduces waste and extends the life cycle of clothing." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_031",
+        "scenario": "Choosing jewelry for formal events",
+        "turns": [
+          { "role": "user", "content": "I’m attending a gala. What kind of jewelry should I wear?" },
+          { "role": "agent", "content": "Go for statement pieces—drop earrings or a bold necklace—if your gown is simple. If your dress is embellished, choose subtle jewelry." },
+          { "role": "user", "content": "Should I wear both earrings and a necklace?" },
+          { "role": "agent", "content": "Not always. Pick one focal piece and keep the rest minimal for balance." },
+          { "role": "user", "content": "What about bracelets?" },
+          { "role": "agent", "content": "A delicate bracelet or cuff can add elegance without overwhelming the look." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_032",
+        "scenario": "Finding clothes for petite frames",
+        "turns": [
+          { "role": "user", "content": "I’m petite and struggle to find clothes that fit. Any tips?" },
+          { "role": "agent", "content": "Look for brands with petite lines. High-waisted trousers and cropped jackets elongate your figure." },
+          { "role": "user", "content": "Should I avoid oversized styles?" },
+          { "role": "agent", "content": "Yes, they can overwhelm your frame. Opt for tailored cuts instead." },
+          { "role": "user", "content": "What about skirts?" },
+          { "role": "agent", "content": "A-line or pencil skirts work well. Midi lengths that hit mid-calf may shorten your look, so choose carefully." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_033",
+        "scenario": "Choosing outfits for travel photos",
+        "turns": [
+          { "role": "user", "content": "I want to look stylish in travel photos. Any outfit suggestions?" },
+          { "role": "agent", "content": "Pack versatile layers like a denim jacket, neutral dresses, and accessories that pop on camera." },
+          { "role": "user", "content": "Should I avoid logos?" },
+          { "role": "agent", "content": "Yes, big logos can look dated. Solid colors or subtle patterns are more timeless." },
+          { "role": "user", "content": "What about shoes for sightseeing?" },
+          { "role": "agent", "content": "Stylish sneakers or chic flats keep you comfortable without compromising on looks." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_034",
+        "scenario": "Finding outfits for tall women",
+        "turns": [
+          { "role": "user", "content": "I’m tall and find it hard to buy pants. Any advice?" },
+          { "role": "agent", "content": "Look for brands that offer tall sizes. Wide-leg trousers and maxi dresses flatter tall frames." },
+          { "role": "user", "content": "Can I wear heels too?" },
+          { "role": "agent", "content": "Yes! Embrace your height. Block heels or pointed shoes elongate your look even more." },
+          { "role": "user", "content": "What about prints?" },
+          { "role": "agent", "content": "Tall women can carry bold prints beautifully. Just balance with solid basics." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_035",
+        "scenario": "Choosing outerwear for spring",
+        "turns": [
+          { "role": "user", "content": "What type of jacket should I wear in spring?" },
+          { "role": "agent", "content": "Trench coats are classic, while denim jackets or light bombers are casual and versatile." },
+          { "role": "user", "content": "What about colors?" },
+          { "role": "agent", "content": "Pastels and light neutrals feel fresh in spring. Beige, light blue, and blush are popular." },
+          { "role": "user", "content": "Are leather jackets good for spring?" },
+          { "role": "agent", "content": "Yes, especially lighter shades or cropped cuts. They work well on cooler days." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_036",
+        "scenario": "Choosing smart casual outfits for men",
+        "turns": [
+          { "role": "user", "content": "I struggle with smart casual. What should I wear?" },
+          { "role": "agent", "content": "Chinos with a button-down shirt and loafers are a safe choice. Add a blazer for polish." },
+          { "role": "user", "content": "Can I wear jeans?" },
+          { "role": "agent", "content": "Yes, if they’re dark wash and not distressed. Pair them with a smart shirt." },
+          { "role": "user", "content": "Do sneakers work?" },
+          { "role": "agent", "content": "Minimalist leather sneakers can work, but avoid athletic styles." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_037",
+        "scenario": "Styling oversized sweaters",
+        "turns": [
+          { "role": "user", "content": "How do I style oversized sweaters without looking sloppy?" },
+          { "role": "agent", "content": "Pair them with slim bottoms like skinny jeans or leggings to balance proportions." },
+          { "role": "user", "content": "Can I wear them with skirts?" },
+          { "role": "agent", "content": "Yes, tuck the front into a midi skirt for a chic look." },
+          { "role": "user", "content": "What about accessories?" },
+          { "role": "agent", "content": "Add structured bags or boots to keep the outfit polished." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_038",
+        "scenario": "Choosing colors for formal wear",
+        "turns": [
+          { "role": "user", "content": "What colors are best for formal evening wear?" },
+          { "role": "agent", "content": "Classic black is timeless, but deep jewel tones like emerald, sapphire, or burgundy add richness." },
+          { "role": "user", "content": "Are white gowns appropriate?" },
+          { "role": "agent", "content": "Yes, but avoid them at weddings to not compete with the bride." },
+          { "role": "user", "content": "What about metallics?" },
+          { "role": "agent", "content": "Gold and silver work beautifully for accessories and even gowns, if styled tastefully." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_039",
+        "scenario": "Styling sneakers with dresses",
+        "turns": [
+          { "role": "user", "content": "Can I wear sneakers with a dress?" },
+          { "role": "agent", "content": "Yes, it’s a trendy look. White sneakers with a flowy midi dress is stylish and comfortable." },
+          { "role": "user", "content": "What about formal dresses?" },
+          { "role": "agent", "content": "Sneakers are better for casual or daytime dresses. Formal gowns still call for heels." },
+          { "role": "user", "content": "Do high-top sneakers work?" },
+          { "role": "agent", "content": "Yes, especially with shorter dresses or skirts. They give an edgy streetwear vibe." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_040",
+        "scenario": "Accessorizing a plain outfit",
+        "turns": [
+          { "role": "user", "content": "How do I make a plain outfit more stylish?" },
+          { "role": "agent", "content": "Add statement jewelry, a colorful scarf, or a bold handbag to elevate it." },
+          { "role": "user", "content": "Do belts help?" },
+          { "role": "agent", "content": "Definitely. A belt defines your waist and adds a focal point." },
+          { "role": "user", "content": "What about shoes?" },
+          { "role": "agent", "content": "Colorful or patterned shoes can turn a simple outfit into a standout look." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_041",
+        "scenario": "Shopping for capsule wardrobe basics",
+        "turns": [
+          { "role": "user", "content": "What should I include in a capsule wardrobe?" },
+          { "role": "agent", "content": "Essential items like a white shirt, black trousers, a navy blazer, neutral T-shirts, and versatile shoes." },
+          { "role": "user", "content": "How many shoes are enough?" },
+          { "role": "agent", "content": "Three to four pairs—sneakers, dress shoes, boots, and sandals—cover most occasions." },
+          { "role": "user", "content": "Do seasonal pieces belong in a capsule?" },
+          { "role": "agent", "content": "Yes, but keep them minimal and rotate based on climate." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_042",
+        "scenario": "Styling leather jackets",
+        "turns": [
+          { "role": "user", "content": "What’s the best way to style a leather jacket?" },
+          { "role": "agent", "content": "Pair it with jeans and a T-shirt for a classic look, or throw it over a dress for contrast." },
+          { "role": "user", "content": "Can it be worn to the office?" },
+          { "role": "agent", "content": "In creative workplaces, yes. Wear it over a blouse with tailored pants." },
+          { "role": "user", "content": "What colors besides black work?" },
+          { "role": "agent", "content": "Brown, burgundy, and even pastel shades can feel fresh and stylish." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_043",
+        "scenario": "Choosing watches as fashion accessories",
+        "turns": [
+          { "role": "user", "content": "Are watches still considered a fashion accessory?" },
+          { "role": "agent", "content": "Yes, absolutely. A sleek watch elevates any outfit, even if you check time on your phone." },
+          { "role": "user", "content": "Should I go for metal or leather straps?" },
+          { "role": "agent", "content": "Metal feels dressy, while leather can be more versatile for everyday wear." },
+          { "role": "user", "content": "What about smartwatches?" },
+          { "role": "agent", "content": "They’re practical, and many brands now design stylish versions with customizable straps." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_044",
+        "scenario": "Dressing for outdoor concerts",
+        "turns": [
+          { "role": "user", "content": "I’m going to an outdoor concert. What should I wear?" },
+          { "role": "agent", "content": "Comfortable clothes like denim shorts or a breezy dress, with sneakers or boots, work well." },
+          { "role": "user", "content": "Should I bring a jacket?" },
+          { "role": "agent", "content": "Yes, evenings can get chilly. A light denim or bomber jacket is perfect." },
+          { "role": "user", "content": "What about accessories?" },
+          { "role": "agent", "content": "Crossbody bags keep your hands free, and sunglasses or hats add both style and function." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_045",
+        "scenario": "Choosing outfits for interviews in creative industries",
+        "turns": [
+          { "role": "user", "content": "How do I dress for a job interview in a creative company?" },
+          { "role": "agent", "content": "Show personality while staying polished. Try tailored pants with a bold blouse, or a patterned shirt with a blazer." },
+          { "role": "user", "content": "Are jeans acceptable?" },
+          { "role": "agent", "content": "Dark, well-fitted jeans can work if paired with smart pieces, but avoid distressed styles." },
+          { "role": "user", "content": "What about accessories?" },
+          { "role": "agent", "content": "Statement jewelry or unique shoes can highlight your creativity without being over the top." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_046",
+        "scenario": "Choosing scarves as accessories",
+        "turns": [
+          { "role": "user", "content": "How do I style scarves as accessories?" },
+          { "role": "agent", "content": "You can drape them loosely around your neck, tie them in a French knot, or even wear them as headbands." },
+          { "role": "user", "content": "Do silk scarves work better?" },
+          { "role": "agent", "content": "Silk is luxurious and light, great for formal looks. Wool or cashmere scarves are better for warmth." },
+          { "role": "user", "content": "Can men wear scarves too?" },
+          { "role": "agent", "content": "Of course! Neutral wool scarves look sophisticated on men, especially with coats." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_047",
+        "scenario": "Choosing outfits for brunch",
+        "turns": [
+          { "role": "user", "content": "What should I wear to a casual brunch with friends?" },
+          { "role": "agent", "content": "Go for relaxed chic—like a flowy sundress with sandals or jeans with a blouse." },
+          { "role": "user", "content": "Is athleisure okay?" },
+          { "role": "agent", "content": "Yes, if styled neatly. Pair leggings with an oversized sweater and sleek sneakers." },
+          { "role": "user", "content": "Any accessory tips?" },
+          { "role": "agent", "content": "Minimal jewelry and sunglasses keep it effortless yet stylish." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_048",
+        "scenario": "Finding outfits for plus-size women",
+        "turns": [
+          { "role": "user", "content": "I want to feel stylish as a plus-size woman. Any tips?" },
+          { "role": "agent", "content": "Structured pieces like wrap dresses and tailored jackets flatter curves beautifully." },
+          { "role": "user", "content": "What about prints?" },
+          { "role": "agent", "content": "Go for medium-sized prints and vertical patterns, which elongate the silhouette." },
+          { "role": "user", "content": "Are skinny jeans okay?" },
+          { "role": "agent", "content": "Yes, paired with a tunic or longline blazer, they look chic and balanced." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_049",
+        "scenario": "Choosing outfits for presentations",
+        "turns": [
+          { "role": "user", "content": "I’m giving a presentation. What should I wear to look confident?" },
+          { "role": "agent", "content": "Wear something tailored and comfortable, like a blazer with trousers or a pencil skirt." },
+          { "role": "user", "content": "Should I wear bright colors?" },
+          { "role": "agent", "content": "Bold colors like blue or red can project confidence, but balance them with neutrals." },
+          { "role": "user", "content": "What about shoes?" },
+          { "role": "agent", "content": "Closed-toe shoes are professional and help ground your presence." }
+        ]
+      },
+      {
+        "id": "fashion_usercrafted_050",
+        "scenario": "Choosing accessories for men",
+        "turns": [
+          { "role": "user", "content": "What accessories should men wear daily?" },
+          { "role": "agent", "content": "A watch, belt, and subtle cufflinks for formal days. For casual looks, sunglasses and leather bracelets work well." },
+          { "role": "user", "content": "Are rings fashionable for men?" },
+          { "role": "agent", "content": "Yes, minimalist bands or signet rings can add style without being flashy." },
+          { "role": "user", "content": "What about bags?" },
+          { "role": "agent", "content": "Messenger bags or sleek backpacks are practical and stylish alternatives to briefcases." }
+        ]
+      }
+    ]
+  }
+  

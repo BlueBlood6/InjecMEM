@@ -1,0 +1,608 @@
+{
+  "theme": "food & beverage",
+  "description": "50 hand-crafted Food & Beverage conversations; single-session, English-only; each conversation has 6–12 even turns; scenarios highly diverse; phrasing varied; no boilerplate.",
+  "conversations": [
+    {
+      "id": "foodbev_usercrafted_001",
+      "scenario": "Cooking with limited ingredients",
+      "turns": [
+        { "role": "user", "content": "I only have eggs, tomatoes, and onions at home. What can I cook?" },
+        { "role": "agent", "content": "You can make a classic tomato and onion omelet. Chop the onions and tomatoes, sauté them, then add beaten eggs. It’s simple and filling." },
+        { "role": "user", "content": "That sounds basic. Any way to make it more interesting?" },
+        { "role": "agent", "content": "You could add spices like cumin or chili flakes if you have them, or melt some cheese on top for extra flavor." },
+        { "role": "user", "content": "Can it be eaten with bread?" },
+        { "role": "agent", "content": "Absolutely. Serve it with toast or flatbread, and you’ll have a satisfying meal." }
+      ]
+    },
+    {
+      "id": "foodbev_usercrafted_002",
+      "scenario": "Baking bread for the first time",
+      "turns": [
+        { "role": "user", "content": "I want to bake bread, but I’ve never tried it before. Where should I start?" },
+        { "role": "agent", "content": "Begin with a simple no-knead bread recipe. Mix flour, yeast, salt, and water, let it rise overnight, and bake in a Dutch oven." },
+        { "role": "user", "content": "Do I need special equipment?" },
+        { "role": "agent", "content": "Not really—just an oven-safe pot with a lid. That helps create steam for a crunchy crust." },
+        { "role": "user", "content": "How do I know it’s done?" },
+        { "role": "agent", "content": "Tap the bottom; if it sounds hollow, it’s ready. Or use a thermometer—around 95°C inside is perfect." }
+      ]
+    },
+    {
+      "id": "foodbev_usercrafted_003",
+      "scenario": "Choosing a wine for dinner",
+      "turns": [
+        { "role": "user", "content": "I’m cooking steak tonight. Which wine should I buy?" },
+        { "role": "agent", "content": "A bold red like Cabernet Sauvignon or Malbec pairs wonderfully with steak, balancing the richness of the meat." },
+        { "role": "user", "content": "What if I prefer lighter wines?" },
+        { "role": "agent", "content": "Then try a Pinot Noir. It’s lighter but still has enough body to complement steak without overwhelming you." },
+        { "role": "user", "content": "Is white wine ever okay with steak?" },
+        { "role": "agent", "content": "It’s unusual, but a full-bodied Chardonnay could work if you prefer white. Just avoid very light wines with red meat." }
+      ]
+    },
+    {
+      "id": "foodbev_usercrafted_004",
+      "scenario": "Making homemade pizza",
+      "turns": [
+        { "role": "user", "content": "I want to make pizza at home. Do I need a pizza stone?" },
+        { "role": "agent", "content": "It helps with a crispy crust, but a baking sheet works fine if preheated. The key is baking at a high temperature." },
+        { "role": "user", "content": "What toppings should I try?" },
+        { "role": "agent", "content": "Classic margherita is foolproof. Or try mushrooms, onions, and bell peppers for a veggie version. Pepperoni is always popular too." },
+        { "role": "user", "content": "Should I cook the toppings first?" },
+        { "role": "agent", "content": "Harder veggies like mushrooms and onions benefit from a quick sauté. Softer items like spinach can go on raw." }
+      ]
+    },
+    {
+      "id": "foodbev_usercrafted_005",
+      "scenario": "Ordering at a French restaurant",
+      "turns": [
+        { "role": "user", "content": "I’m going to a French restaurant for the first time. What should I try?" },
+        { "role": "agent", "content": "Start with escargots or onion soup, then perhaps coq au vin or duck confit. For dessert, crème brûlée is a classic choice." },
+        { "role": "user", "content": "I’m not very adventurous with food. Any safer picks?" },
+        { "role": "agent", "content": "Steak frites is simple yet delicious, and quiche Lorraine is also comforting and approachable." },
+        { "role": "user", "content": "What wine goes well with coq au vin?" },
+        { "role": "agent", "content": "A Burgundy red is traditional, since the dish is often cooked with it." }
+      ]
+    },
+    {
+      "id": "foodbev_usercrafted_006",
+      "scenario": "Making vegetarian protein-rich meals",
+      "turns": [
+        { "role": "user", "content": "I want more vegetarian meals but need enough protein. What can I cook?" },
+        { "role": "agent", "content": "Consider lentil curry, chickpea stir-fry, or tofu with vegetables. Quinoa and beans are also high in protein." },
+        { "role": "user", "content": "I don’t like tofu much." },
+        { "role": "agent", "content": "Then focus on legumes—black beans, kidney beans, and lentils make hearty meals. You can also try seitan if you want a meat-like texture." },
+        { "role": "user", "content": "What about breakfast options?" },
+        { "role": "agent", "content": "Greek yogurt with nuts, or scrambled eggs with spinach and cheese, are both protein-rich starts to the day." }
+      ]
+    },
+    {
+      "id": "foodbev_usercrafted_007",
+      "scenario": "Pairing beer with food",
+      "turns": [
+        { "role": "user", "content": "I usually drink beer but want to pair it properly with meals. Any advice?" },
+        { "role": "agent", "content": "Lighter lagers pair well with fried foods, IPAs balance spicy dishes, and stouts are great with chocolate desserts." },
+        { "role": "user", "content": "What about pizza?" },
+        { "role": "agent", "content": "A pale ale works great with pizza, cutting through the cheese while complementing the tomato sauce." },
+        { "role": "user", "content": "And seafood?" },
+        { "role": "agent", "content": "Try a crisp pilsner or wheat beer with seafood. They enhance freshness without overpowering delicate flavors." }
+      ]
+    },
+    {
+      "id": "foodbev_usercrafted_008",
+      "scenario": "Making cocktails at home",
+      "turns": [
+        { "role": "user", "content": "I want to make cocktails at home. What are the essentials I need?" },
+        { "role": "agent", "content": "Start with vodka, gin, rum, tequila, and whiskey. Add mixers like tonic water, soda, and simple syrup, plus citrus fruits for garnish." },
+        { "role": "user", "content": "Do I need fancy tools?" },
+        { "role": "agent", "content": "A shaker, strainer, and muddler are useful, but you can improvise with a jar and spoon if necessary." },
+        { "role": "user", "content": "What’s a simple cocktail to start with?" },
+        { "role": "agent", "content": "A gin and tonic or a classic mojito. They’re easy, refreshing, and don’t need complex ingredients." }
+      ]
+    },
+    {
+      "id": "foodbev_usercrafted_009",
+      "scenario": "Learning to use spices",
+      "turns": [
+        { "role": "user", "content": "I never know how to use spices properly. Any tips?" },
+        { "role": "agent", "content": "Toast whole spices like cumin or coriander before grinding to bring out flavor. Add delicate spices like basil at the end of cooking, but sturdier ones like cinnamon early." },
+        { "role": "user", "content": "What’s a good beginner combo?" },
+        { "role": "agent", "content": "Garlic, ginger, cumin, and turmeric make a flavorful base for curries. Paprika and oregano work well in Mediterranean dishes." },
+        { "role": "user", "content": "Can I experiment freely?" },
+        { "role": "agent", "content": "Yes, but start small—too much spice can overwhelm. Build flavors gradually." }
+      ]
+    },
+    {
+      "id": "foodbev_usercrafted_010",
+      "scenario": "Cooking for someone with allergies",
+      "turns": [
+        { "role": "user", "content": "My friend is allergic to nuts and dairy. What can I cook for them?" },
+        { "role": "agent", "content": "Try roasted vegetables with quinoa, or grilled chicken with a lemon-herb sauce. For dessert, fruit sorbet is a safe choice." },
+        { "role": "user", "content": "What about baking?" },
+        { "role": "agent", "content": "Use plant-based milk alternatives and oil instead of butter. For binding, flaxseed mixed with water can replace eggs." },
+        { "role": "user", "content": "Is it tricky to make it taste good without butter?" },
+        { "role": "agent", "content": "Not at all. Olive oil or coconut oil add rich flavor, and you can boost taste with vanilla or spices." }
+      ]
+    },
+      {
+        "id": "foodbev_usercrafted_011",
+        "scenario": "Exploring street food in Bangkok",
+        "turns": [
+          { "role": "user", "content": "I’m going to Bangkok and I really want to try street food. Where should I start?" },
+          { "role": "agent", "content": "Head to Yaowarat Road in Chinatown. You’ll find endless stalls selling pad thai, grilled seafood, mango sticky rice, and satay." },
+          { "role": "user", "content": "Is street food safe to eat?" },
+          { "role": "agent", "content": "Yes, choose stalls with long lines and high turnover. Freshly cooked dishes are usually safe." },
+          { "role": "user", "content": "Any must-try local specialty?" },
+          { "role": "agent", "content": "Definitely try Tom Yum Goong soup and Thai coconut pancakes. They’re flavorful and unique." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_012",
+        "scenario": "Hosting a dinner party",
+        "turns": [
+          { "role": "user", "content": "I’m hosting a dinner party for six. What’s an easy menu that looks impressive?" },
+          { "role": "agent", "content": "Start with a charcuterie board, then a main of roast chicken with seasonal vegetables. End with a homemade fruit tart." },
+          { "role": "user", "content": "That sounds good, but I don’t have much time to cook." },
+          { "role": "agent", "content": "You can prepare the chicken in advance, then reheat it. Or switch to pasta with a fresh salad—it’s easier but still elegant." },
+          { "role": "user", "content": "What about drinks?" },
+          { "role": "agent", "content": "Serve a light sparkling wine or mix up a simple sangria with fruits—it pairs well with a wide range of dishes." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_013",
+        "scenario": "Learning about coffee brewing methods",
+        "turns": [
+          { "role": "user", "content": "I love coffee but always use instant. How can I make better coffee at home?" },
+          { "role": "agent", "content": "Try a French press for rich flavor, or a pour-over for a cleaner taste. If you like convenience, a drip machine is still good." },
+          { "role": "user", "content": "Is grinding beans important?" },
+          { "role": "agent", "content": "Yes, freshly ground beans make a huge difference. Burr grinders give consistent results compared to blade grinders." },
+          { "role": "user", "content": "What about espresso machines?" },
+          { "role": "agent", "content": "They’re great but pricey. Start with a moka pot—it’s inexpensive and produces espresso-like coffee." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_014",
+        "scenario": "Cooking pasta like an Italian",
+        "turns": [
+          { "role": "user", "content": "I cook pasta often, but I’m not sure I’m doing it right. Any Italian tips?" },
+          { "role": "agent", "content": "Boil in plenty of salted water—it should taste like the sea. Cook until al dente, then finish the pasta in the sauce." },
+          { "role": "user", "content": "I usually rinse pasta after boiling. Is that wrong?" },
+          { "role": "agent", "content": "Yes, rinsing removes the starch that helps sauce cling. Only rinse pasta for cold salads." },
+          { "role": "user", "content": "How do I make it taste authentic?" },
+          { "role": "agent", "content": "Use high-quality olive oil, fresh herbs, and avoid drowning it in sauce—balance is key." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_015",
+        "scenario": "Making vegan desserts",
+        "turns": [
+          { "role": "user", "content": "I want to make desserts for vegan friends. Any suggestions?" },
+          { "role": "agent", "content": "Try brownies made with avocado or black beans, or coconut milk panna cotta. Fruit crisps are also easy and vegan-friendly." },
+          { "role": "user", "content": "What can I use instead of eggs in baking?" },
+          { "role": "agent", "content": "Flaxseed mixed with water, mashed bananas, or applesauce can act as binders." },
+          { "role": "user", "content": "What about whipped cream alternatives?" },
+          { "role": "agent", "content": "Whipped coconut cream works wonderfully. Chill the can, scoop the solid part, and whip until fluffy." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_016",
+        "scenario": "Choosing healthy snacks",
+        "turns": [
+          { "role": "user", "content": "I’m trying to eat healthier. What are some good snack options?" },
+          { "role": "agent", "content": "Try hummus with veggies, Greek yogurt with berries, or roasted chickpeas. Nuts are also great in moderation." },
+          { "role": "user", "content": "I usually grab chips. Any crunchy alternatives?" },
+          { "role": "agent", "content": "Kale chips, air-popped popcorn, or rice cakes with peanut butter give you crunch without excess calories." },
+          { "role": "user", "content": "How do I avoid overeating snacks?" },
+          { "role": "agent", "content": "Pre-portion them into small containers so you don’t eat straight from the bag." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_017",
+        "scenario": "Cooking with leftovers",
+        "turns": [
+          { "role": "user", "content": "I have leftover roast chicken. What can I make with it?" },
+          { "role": "agent", "content": "You can make chicken salad, quesadillas, or add it to pasta or fried rice. It’s versatile." },
+          { "role": "user", "content": "I don’t want it to taste dry." },
+          { "role": "agent", "content": "Mix with a creamy sauce or broth to keep moisture. Chicken soup is another great option." },
+          { "role": "user", "content": "Can I freeze it?" },
+          { "role": "agent", "content": "Yes, shred it and freeze in small portions for later use in soups or casseroles." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_018",
+        "scenario": "Exploring Middle Eastern cuisine",
+        "turns": [
+          { "role": "user", "content": "I want to try cooking Middle Eastern food. Where should I begin?" },
+          { "role": "agent", "content": "Start with hummus, falafel, and tabbouleh. They’re easy and introduce you to typical flavors." },
+          { "role": "user", "content": "What spices are essential?" },
+          { "role": "agent", "content": "Cumin, coriander, sumac, and cinnamon are widely used. Za’atar is also a popular spice blend." },
+          { "role": "user", "content": "Any simple main dish?" },
+          { "role": "agent", "content": "Shakshuka—eggs poached in spiced tomato sauce—is flavorful and beginner-friendly." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_019",
+        "scenario": "Making smoothies at home",
+        "turns": [
+          { "role": "user", "content": "I want to start making smoothies. What should I put in them?" },
+          { "role": "agent", "content": "Use a base like banana or mango for creaminess, add leafy greens, and mix with milk or juice. Boost with chia seeds or protein powder." },
+          { "role": "user", "content": "Can I prep them in advance?" },
+          { "role": "agent", "content": "Yes, prep frozen fruit packs ahead of time, then just blend with liquid when needed." },
+          { "role": "user", "content": "Any unusual but tasty combos?" },
+          { "role": "agent", "content": "Spinach, pineapple, and ginger make a refreshing blend. Blueberry and almond butter is also delicious." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_020",
+        "scenario": "Dining etiquette at a formal dinner",
+        "turns": [
+          { "role": "user", "content": "I’ve been invited to a formal dinner. I’m nervous about etiquette. Any tips?" },
+          { "role": "agent", "content": "Work from the outside in with cutlery, keep elbows off the table, and wait until everyone is served before eating." },
+          { "role": "user", "content": "What about wine etiquette?" },
+          { "role": "agent", "content": "Hold the glass by the stem, not the bowl. Sip slowly and never overfill your glass when pouring." },
+          { "role": "user", "content": "How should I excuse myself during the meal?" },
+          { "role": "agent", "content": "Place your napkin on your chair to signal you’ll return. At the end, leave it neatly on the table." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_021",
+        "scenario": "Cooking quick weeknight dinners",
+        "turns": [
+          { "role": "user", "content": "After work I’m always tired. What’s a quick dinner I can make in 20 minutes?" },
+          { "role": "agent", "content": "A stir-fry with vegetables and chicken or tofu is fast and nutritious. Pasta with a simple tomato and garlic sauce is another option." },
+          { "role": "user", "content": "I don’t want to chop too much." },
+          { "role": "agent", "content": "Use frozen pre-cut vegetables—they save time and retain nutrients. Pair them with pre-cooked noodles or rice." },
+          { "role": "user", "content": "Any tips to keep variety during the week?" },
+          { "role": "agent", "content": "Switch up sauces—soy-ginger one day, creamy pesto another. It makes the same base ingredients feel different." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_022",
+        "scenario": "Exploring wine tasting basics",
+        "turns": [
+          { "role": "user", "content": "I’m going to a wine tasting. How do I look like I know what I’m doing?" },
+          { "role": "agent", "content": "Hold the glass by the stem, swirl gently, then sniff before sipping. Pay attention to flavors, body, and finish." },
+          { "role": "user", "content": "What should I say when describing wine?" },
+          { "role": "agent", "content": "You can mention fruitiness, acidity, sweetness, or tannins. For example: ‘This has bright citrus notes with a crisp finish.’" },
+          { "role": "user", "content": "Is it okay to spit the wine out?" },
+          { "role": "agent", "content": "Yes, professionals often spit to avoid intoxication. Containers are usually provided." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_023",
+        "scenario": "Meal prepping for fitness goals",
+        "turns": [
+          { "role": "user", "content": "I want to meal prep for the week to support my workouts. What should I cook?" },
+          { "role": "agent", "content": "Choose lean proteins like chicken, turkey, or beans, pair with complex carbs like quinoa or sweet potatoes, and add lots of vegetables." },
+          { "role": "user", "content": "Won’t the meals get boring?" },
+          { "role": "agent", "content": "You can season each batch differently—Mediterranean with olive oil and herbs, Asian with soy sauce and ginger, or Mexican with chili and lime." },
+          { "role": "user", "content": "How do I store them safely?" },
+          { "role": "agent", "content": "Keep them in airtight containers, refrigerate for up to four days, or freeze portions for longer storage." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_024",
+        "scenario": "Trying plant-based milk alternatives",
+        "turns": [
+          { "role": "user", "content": "I want to switch from dairy milk. Which plant-based alternatives should I try?" },
+          { "role": "agent", "content": "Almond milk is light, oat milk is creamy, and soy milk has high protein. Coconut milk is rich and best for cooking." },
+          { "role": "user", "content": "Which is closest to cow’s milk?" },
+          { "role": "agent", "content": "Oat milk is popular for its texture and mild taste, making it great for coffee and cereals." },
+          { "role": "user", "content": "Are they healthy?" },
+          { "role": "agent", "content": "Most are fortified with vitamins. Just check labels for added sugar, and choose unsweetened versions when possible." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_025",
+        "scenario": "Hosting a wine and cheese night",
+        "turns": [
+          { "role": "user", "content": "I want to host a wine and cheese night. How do I pair them?" },
+          { "role": "agent", "content": "Soft cheeses like brie pair with sparkling wine, sharp cheddar goes with Cabernet, and blue cheese matches well with sweet wines like Port." },
+          { "role": "user", "content": "How many varieties should I serve?" },
+          { "role": "agent", "content": "Three to five cheeses with matching wines are enough for variety without overwhelming guests." },
+          { "role": "user", "content": "Any extra touches to make it nicer?" },
+          { "role": "agent", "content": "Add grapes, nuts, and fresh bread. A little honey or fig jam pairs beautifully with many cheeses." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_026",
+        "scenario": "Exploring fermentation at home",
+        "turns": [
+          { "role": "user", "content": "I’ve been curious about fermentation. What’s something simple I can try at home?" },
+          { "role": "agent", "content": "Start with sauerkraut or kimchi. You just need cabbage, salt, and a jar for sauerkraut. For kimchi, add chili, garlic, and ginger." },
+          { "role": "user", "content": "Is it safe to ferment at home?" },
+          { "role": "agent", "content": "Yes, as long as everything is clean and the vegetables stay submerged in brine. Fermentation naturally preserves food." },
+          { "role": "user", "content": "How long does it take?" },
+          { "role": "agent", "content": "Sauerkraut takes about a week at room temperature, but you can ferment longer for stronger flavor." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_027",
+        "scenario": "Ordering vegetarian food while traveling",
+        "turns": [
+          { "role": "user", "content": "I’m vegetarian and traveling abroad. How can I make sure I find food I can eat?" },
+          { "role": "agent", "content": "Learn basic phrases in the local language, like ‘no meat’ or ‘vegetarian’. Also research popular veggie dishes beforehand." },
+          { "role": "user", "content": "What if a place doesn’t understand me?" },
+          { "role": "agent", "content": "Show a translation app or carry a small card with dietary restrictions written down." },
+          { "role": "user", "content": "Any tips for countries with meat-heavy cuisine?" },
+          { "role": "agent", "content": "Look for Indian, Middle Eastern, or international restaurants, as they usually have vegetarian-friendly options." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_028",
+        "scenario": "Exploring fine dining",
+        "turns": [
+          { "role": "user", "content": "I’ve never been to a fine dining restaurant. What should I expect?" },
+          { "role": "agent", "content": "Expect multiple courses with smaller portions, artistic presentation, and attentive service. The menu may include tasting menus with wine pairings." },
+          { "role": "user", "content": "Do I need to dress formally?" },
+          { "role": "agent", "content": "Yes, most fine dining restaurants have dress codes—business casual or formal attire is safest." },
+          { "role": "user", "content": "How do I avoid feeling awkward?" },
+          { "role": "agent", "content": "Just follow the server’s guidance, and don’t hesitate to ask questions about the dishes or wine pairings." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_029",
+        "scenario": "Cooking with seasonal produce",
+        "turns": [
+          { "role": "user", "content": "I want to cook more with seasonal produce. How can I start?" },
+          { "role": "agent", "content": "Visit local farmers’ markets. Ask vendors what’s in peak season—it’s usually fresher, cheaper, and tastier." },
+          { "role": "user", "content": "Any examples for summer?" },
+          { "role": "agent", "content": "Tomatoes, zucchini, and berries are abundant in summer. Grilled zucchini or berry cobblers are great seasonal dishes." },
+          { "role": "user", "content": "What about winter?" },
+          { "role": "agent", "content": "Root vegetables like carrots, turnips, and squashes shine in winter. They’re perfect for roasting or soups." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_030",
+        "scenario": "Making homemade ice cream",
+        "turns": [
+          { "role": "user", "content": "I’d love to make ice cream at home. Do I need an ice cream machine?" },
+          { "role": "agent", "content": "Not necessarily. You can whip cream, mix with condensed milk and flavorings, then freeze for no-churn ice cream." },
+          { "role": "user", "content": "Will it taste as good?" },
+          { "role": "agent", "content": "Yes, it’s creamy and customizable. Churned versions are a bit smoother, but no-churn recipes are surprisingly close." },
+          { "role": "user", "content": "Any fun flavor ideas?" },
+          { "role": "agent", "content": "Try cookies and cream, mango, or even matcha. Swirl in caramel or chocolate chips for variety." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_031",
+        "scenario": "Learning about sushi etiquette",
+        "turns": [
+          { "role": "user", "content": "I’m going to a sushi restaurant. Are there any etiquette rules I should know?" },
+          { "role": "agent", "content": "Yes, eat sushi in one bite if possible, and use your hands for nigiri if chopsticks feel awkward. Dip fish side into soy sauce, not the rice." },
+          { "role": "user", "content": "Should I mix wasabi into soy sauce?" },
+          { "role": "agent", "content": "It’s not traditional, but many people do. If the chef already seasoned it, try it as served first." },
+          { "role": "user", "content": "What about ginger?" },
+          { "role": "agent", "content": "Ginger is meant as a palate cleanser between bites, not to be piled on top of sushi." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_032",
+        "scenario": "Exploring gluten-free baking",
+        "turns": [
+          { "role": "user", "content": "I need to bake gluten-free for a friend. How do I start?" },
+          { "role": "agent", "content": "Use a gluten-free flour blend that includes rice or almond flour with xanthan gum for structure." },
+          { "role": "user", "content": "Will it taste different?" },
+          { "role": "agent", "content": "Slightly, but adding flavors like vanilla, cocoa, or spices helps mask any differences." },
+          { "role": "user", "content": "Any beginner recipe?" },
+          { "role": "agent", "content": "Start with brownies or banana bread. They’re forgiving and stay moist even without gluten." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_033",
+        "scenario": "Trying Indian curries",
+        "turns": [
+          { "role": "user", "content": "I want to cook an Indian curry at home. Which one should I try first?" },
+          { "role": "agent", "content": "Chicken tikka masala is a popular beginner-friendly dish, with creamy tomato sauce and aromatic spices." },
+          { "role": "user", "content": "Do I need lots of special spices?" },
+          { "role": "agent", "content": "A few basics go a long way: cumin, coriander, turmeric, and garam masala. These cover many curries." },
+          { "role": "user", "content": "Can I make it vegetarian?" },
+          { "role": "agent", "content": "Yes, substitute paneer or chickpeas for the protein. The sauce is versatile." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_034",
+        "scenario": "Exploring food photography",
+        "turns": [
+          { "role": "user", "content": "I want to take better photos of my food. Any tips?" },
+          { "role": "agent", "content": "Use natural light near a window, avoid harsh overhead lighting, and keep the background simple." },
+          { "role": "user", "content": "Should I use filters?" },
+          { "role": "agent", "content": "Light editing is fine to enhance brightness and color, but avoid over-saturating. Keep food looking real and appetizing." },
+          { "role": "user", "content": "What about angles?" },
+          { "role": "agent", "content": "Top-down works well for flat dishes like pizza, while a 45-degree angle highlights height for burgers or cakes." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_035",
+        "scenario": "Cooking for picky eaters",
+        "turns": [
+          { "role": "user", "content": "My kids are picky eaters. How can I get them to eat more vegetables?" },
+          { "role": "agent", "content": "Try blending vegetables into sauces, like spinach in pasta sauce or carrots in muffins. Presentation also matters—make it fun and colorful." },
+          { "role": "user", "content": "They hate anything green." },
+          { "role": "agent", "content": "Start with sweeter veggies like corn, sweet potatoes, or peas. Gradually introduce greens mixed with familiar foods." },
+          { "role": "user", "content": "Should I force them to finish?" },
+          { "role": "agent", "content": "It’s better to encourage rather than force. Involve them in cooking—kids are more likely to try foods they helped prepare." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_036",
+        "scenario": "Exploring Mediterranean diet",
+        "turns": [
+          { "role": "user", "content": "I keep hearing about the Mediterranean diet. What’s it like?" },
+          { "role": "agent", "content": "It emphasizes vegetables, fruits, olive oil, fish, legumes, and whole grains, with limited red meat and sweets." },
+          { "role": "user", "content": "Is it hard to follow?" },
+          { "role": "agent", "content": "Not at all. Simple dishes like Greek salad, grilled fish, and hummus fit perfectly and are easy to make." },
+          { "role": "user", "content": "What are the benefits?" },
+          { "role": "agent", "content": "It’s linked to heart health, longevity, and reduced risk of chronic diseases." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_037",
+        "scenario": "Exploring chocolate varieties",
+        "turns": [
+          { "role": "user", "content": "I love chocolate, but I only eat milk chocolate. What’s the difference with dark chocolate?" },
+          { "role": "agent", "content": "Dark chocolate has a higher cocoa percentage, less sugar, and a more intense flavor. It’s often considered healthier." },
+          { "role": "user", "content": "What about white chocolate?" },
+          { "role": "agent", "content": "It doesn’t contain cocoa solids, only cocoa butter, sugar, and milk. It’s sweet but lacks the richness of dark chocolate." },
+          { "role": "user", "content": "Which pairs best with coffee?" },
+          { "role": "agent", "content": "Dark chocolate pairs beautifully with strong coffee, balancing bitterness with richness." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_038",
+        "scenario": "Making homemade soup",
+        "turns": [
+          { "role": "user", "content": "I want to make a hearty soup from scratch. Where do I start?" },
+          { "role": "agent", "content": "Begin with aromatics like onion, garlic, and celery sautéed in oil. Add broth, vegetables, and a protein like beans or chicken." },
+          { "role": "user", "content": "How long should it cook?" },
+          { "role": "agent", "content": "At least 30–40 minutes for flavors to blend. Some soups taste even better the next day." },
+          { "role": "user", "content": "Any seasoning tips?" },
+          { "role": "agent", "content": "Bay leaves, thyme, and black pepper are classic. Always taste and adjust salt near the end." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_039",
+        "scenario": "Exploring street food in Mexico",
+        "turns": [
+          { "role": "user", "content": "I’m visiting Mexico. What street foods should I try?" },
+          { "role": "agent", "content": "Tacos al pastor, tamales, elote (grilled corn), and churros are must-try favorites." },
+          { "role": "user", "content": "Is it spicy?" },
+          { "role": "agent", "content": "Some dishes are, but you can ask for milder versions. Salsas range from mild to fiery." },
+          { "role": "user", "content": "Any drink to go with it?" },
+          { "role": "agent", "content": "Try horchata, a sweet rice-based drink, or aguas frescas made from fruit and water." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_040",
+        "scenario": "Learning knife skills",
+        "turns": [
+          { "role": "user", "content": "I struggle with chopping vegetables quickly. How can I improve my knife skills?" },
+          { "role": "agent", "content": "Start with the right grip—pinch the blade with your thumb and index finger, and curl your other hand’s fingers to guide safely." },
+          { "role": "user", "content": "Which knife should I buy?" },
+          { "role": "agent", "content": "A good chef’s knife is versatile. Invest in one quality knife rather than many cheap ones." },
+          { "role": "user", "content": "How do I practice?" },
+          { "role": "agent", "content": "Practice uniform cuts on onions or carrots. Repetition builds speed and consistency." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_041",
+        "scenario": "Making homemade pasta",
+        "turns": [
+          { "role": "user", "content": "I’d like to try making pasta from scratch. Is it hard?" },
+          { "role": "agent", "content": "It’s easier than you think. Mix flour and eggs into a dough, knead until smooth, rest it, then roll and cut into shapes." },
+          { "role": "user", "content": "Do I need a pasta machine?" },
+          { "role": "agent", "content": "It helps for thin sheets, but a rolling pin works fine. Hand-cut tagliatelle or pappardelle are forgiving." },
+          { "role": "user", "content": "Any sauce recommendation for fresh pasta?" },
+          { "role": "agent", "content": "Keep it simple—fresh pasta shines with butter, sage, or a light tomato sauce." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_042",
+        "scenario": "Cooking seafood at home",
+        "turns": [
+          { "role": "user", "content": "I never cook seafood because I’m afraid of messing it up. Any advice?" },
+          { "role": "agent", "content": "Seafood cooks quickly, so timing is key. For fish, aim for flaky but moist. For shrimp, they’re done as soon as they turn pink." },
+          { "role": "user", "content": "What’s the easiest starter recipe?" },
+          { "role": "agent", "content": "Try baked salmon with lemon and herbs—it’s almost foolproof and full of flavor." },
+          { "role": "user", "content": "Do I need to buy fresh only?" },
+          { "role": "agent", "content": "Frozen is perfectly fine if thawed properly. Many seafood products are flash-frozen right after being caught." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_043",
+        "scenario": "Exploring French pastries",
+        "turns": [
+          { "role": "user", "content": "I love croissants and want to try making them. Is it possible at home?" },
+          { "role": "agent", "content": "Yes, but croissants require patience. You’ll fold butter into dough multiple times to create flaky layers." },
+          { "role": "user", "content": "That sounds complicated. Any simpler French pastry?" },
+          { "role": "agent", "content": "Madeleines or clafoutis are much easier, yet still feel elegant and authentic." },
+          { "role": "user", "content": "Do I need special flour?" },
+          { "role": "agent", "content": "No, all-purpose flour works. The technique and butter quality matter more than the flour type." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_044",
+        "scenario": "Cooking for a romantic dinner",
+        "turns": [
+          { "role": "user", "content": "I want to cook a romantic dinner at home. What’s a good menu?" },
+          { "role": "agent", "content": "Start with a light appetizer like bruschetta, then a main of pan-seared salmon or steak with roasted vegetables, ending with chocolate mousse." },
+          { "role": "user", "content": "What drink should I serve?" },
+          { "role": "agent", "content": "A sparkling wine or rosé feels celebratory. For non-alcoholic, a homemade berry spritzer works well." },
+          { "role": "user", "content": "Any tips for presentation?" },
+          { "role": "agent", "content": "Use candles, a simple tablecloth, and plate food neatly. Small touches make the meal feel special." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_045",
+        "scenario": "Exploring Korean food",
+        "turns": [
+          { "role": "user", "content": "I’m curious about Korean food. What should I try first?" },
+          { "role": "agent", "content": "Bibimbap is a colorful rice bowl with vegetables, egg, and chili paste. Korean BBQ is also iconic and interactive." },
+          { "role": "user", "content": "Is kimchi always spicy?" },
+          { "role": "agent", "content": "Most kimchi has chili, but there are milder versions made with white radish or cucumber." },
+          { "role": "user", "content": "Any Korean dessert recommendation?" },
+          { "role": "agent", "content": "Bingsu, a shaved ice dessert topped with fruit or red beans, is refreshing and popular." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_046",
+        "scenario": "Learning about tea varieties",
+        "turns": [
+          { "role": "user", "content": "I only drink black tea but want to explore more. What other teas should I try?" },
+          { "role": "agent", "content": "Green tea is lighter with grassy notes, oolong is floral and complex, and white tea is very delicate. Herbal teas aren’t true teas but offer variety." },
+          { "role": "user", "content": "Does brewing time matter?" },
+          { "role": "agent", "content": "Yes, steeping too long makes tea bitter. Green tea, for example, only needs about 2 minutes at lower temperatures." },
+          { "role": "user", "content": "What’s a good tea for relaxing before bed?" },
+          { "role": "agent", "content": "Chamomile or rooibos are caffeine-free and soothing choices." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_047",
+        "scenario": "Cooking with cast iron",
+        "turns": [
+          { "role": "user", "content": "I bought a cast iron skillet. How do I care for it?" },
+          { "role": "agent", "content": "Season it by coating with oil and baking it, then clean gently with hot water and a brush—no soap. Always dry it fully to prevent rust." },
+          { "role": "user", "content": "What should I cook first?" },
+          { "role": "agent", "content": "Try searing steak or roasting chicken. Cast iron holds heat well, giving a great crust." },
+          { "role": "user", "content": "Can I use it for baking?" },
+          { "role": "agent", "content": "Yes, it’s perfect for cornbread, cobblers, and even deep-dish pizza." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_048",
+        "scenario": "Exploring Middle Eastern sweets",
+        "turns": [
+          { "role": "user", "content": "I’ve tried baklava once and loved it. What other Middle Eastern sweets should I try?" },
+          { "role": "agent", "content": "Knafeh, a cheese pastry soaked in syrup, is very popular. Basbousa, a semolina cake with coconut, is another delicious option." },
+          { "role": "user", "content": "Are they difficult to make?" },
+          { "role": "agent", "content": "Baklava requires layering, but basbousa is simple to bake. Knafeh is trickier but worth it if you enjoy experimenting." },
+          { "role": "user", "content": "What drinks go with them?" },
+          { "role": "agent", "content": "Mint tea or strong Turkish coffee balance the sweetness beautifully." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_049",
+        "scenario": "Cooking for large family gatherings",
+        "turns": [
+          { "role": "user", "content": "I need to cook for a big family gathering. What dishes are good for a crowd?" },
+          { "role": "agent", "content": "Casseroles, lasagna, or large trays of roasted chicken are efficient. For sides, big salads and baked potatoes work well." },
+          { "role": "user", "content": "How do I make sure food stays warm?" },
+          { "role": "agent", "content": "Use warming trays or keep dishes in the oven at low heat until serving. Slow cookers are also handy." },
+          { "role": "user", "content": "Any dessert idea that serves many?" },
+          { "role": "agent", "content": "Sheet cakes, fruit crisps, or large batches of cookies are easy to prepare ahead and serve to many people." }
+        ]
+      },
+      {
+        "id": "foodbev_usercrafted_050",
+        "scenario": "Exploring pairing food with cocktails",
+        "turns": [
+          { "role": "user", "content": "I know about wine pairings, but how do I pair food with cocktails?" },
+          { "role": "agent", "content": "Think balance: citrusy cocktails like margaritas pair well with spicy Mexican food, while smoky drinks like an old fashioned match grilled meats." },
+          { "role": "user", "content": "What about seafood?" },
+          { "role": "agent", "content": "A gin and tonic or a mojito complements seafood beautifully, keeping the flavors light and refreshing." },
+          { "role": "user", "content": "And desserts?" },
+          { "role": "agent", "content": "Sweet cocktails like espresso martinis or dessert wines go well with chocolate or creamy desserts." }
+        ]
+      }
+    ]
+  }
+  
+  

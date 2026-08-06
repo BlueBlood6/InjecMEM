@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.venv/
+
+# Downloaded upstream source and local model checkpoints
+external/
+models/
+
+# MemoryOS modules copied during setup
+MemorySystem/__init__.py
+MemorySystem/long_term.py
+MemorySystem/memoryos.py
+MemorySystem/mid_term.py
+MemorySystem/prompts.py
+MemorySystem/retriever.py
+MemorySystem/short_term.py
+MemorySystem/updater.py
+MemorySystem/utils.py
+MemorySystem/defense.py
+
+# Runtime outputs
+MemorySystem/memory_base/
+Multi-GCG/save.txt
+Multi-GCG/save_two_models.txt
+Multi-GCG/CF_multi_gcg.txt

@@ -1,0 +1,675 @@
+{
+  "theme": "recruiting",
+  "description": "Hand-crafted Recruiting-related conversations; single-session, English-only; each conversation has 6–12 turns (even only, randomized); diverse scenarios across sourcing, screening, interviewing, offers, negotiation, onboarding, employer branding, and analytics.",
+  "conversations": [
+    {
+      "id": "recruiting_usercrafted_001",
+      "scenario": "Simulated interview: Front-end developer",
+      "turns": [
+        { "role": "user", "content": "Please act as an interviewer and ask me three questions for a front-end developer role." },
+        { "role": "agent", "content": "Great. First: Describe a complex UI you implemented and how you managed state across components without creating prop-drilling pain." },
+        { "role": "user", "content": "I built a dashboard with nested charts; I centralized shared state using a context provider and memoized selectors to avoid unnecessary renders." },
+        { "role": "agent", "content": "Second: How do you approach performance optimization for a page that feels sluggish on mid-tier mobile devices?" },
+        { "role": "user", "content": "I measure first, using Lighthouse and Performance panel, then fix obvious issues like oversized images, bundle splitting, and expensive reflows." },
+        { "role": "agent", "content": "Third: Tell me about your testing strategy—what do you unit test, what do you integration test, and what do you leave to E2E?" },
+        { "role": "user", "content": "I unit test pure logic, integration test component interactions and API boundaries, and run critical user journeys with stable E2E flows." },
+        { "role": "agent", "content": "Thanks. Feedback: concise answers with measurable context would strengthen your impact—add numbers, constraints, and trade-offs next time." }
+      ]
+    },
+    {
+      "id": "recruiting_usercrafted_002",
+      "scenario": "Tailoring a PM résumé for ATS",
+      "turns": [
+        { "role": "user", "content": "Can you help me tailor my product manager résumé to pass ATS screening for a B2B SaaS company?" },
+        { "role": "agent", "content": "Start by mirroring keywords from the job ad—roadmapping, stakeholder management, ARR, churn, onboarding, and experimentation—then map each to a quantified bullet." },
+        { "role": "user", "content": "I led a feature that improved trial conversions, but I never tracked a dollar figure." },
+        { "role": "agent", "content": "Estimate impact using available metrics: “Increased trial-to-paid by 6.2%, contributing +$420K ARR over two quarters; prioritized via ICE and ran 3 A/Bs.”" },
+        { "role": "user", "content": "Should I list tools like Amplitude and Jira explicitly?" },
+        { "role": "agent", "content": "Yes—ATS looks for exact matches. Add a concise tools line and keep bullets results-first, verbs upfront, and numbers early." }
+      ]
+    },
+    {
+      "id": "recruiting_usercrafted_003",
+      "scenario": "Rewriting a Data Analyst job description",
+      "turns": [
+        { "role": "user", "content": "Our Data Analyst job description is too generic. Can you rewrite it to attract stronger applicants?" },
+        { "role": "agent", "content": "Lead with outcomes: “Within 90 days, build a weekly product KPI deck, automate two pipelines, and advise PMs on experiment design.” Then list required skills crisply." },
+        { "role": "user", "content": "We also need strong SQL and stakeholder skills, plus some Python." },
+        { "role": "agent", "content": "Add a skills band: “SQL (advanced window functions), Python (pandas), dashboarding (Looker/Power BI), and stakeholder facilitation using structured narratives.”" },
+        { "role": "user", "content": "How do we show our culture without fluff?" },
+        { "role": "agent", "content": "Offer specifics: sprint rituals, decision cadence, tooling budget, mentorship pairing, and sample projects linked in the posting." }
+      ]
+    },
+    {
+      "id": "recruiting_usercrafted_004",
+      "scenario": "Behavioral interview coaching with STAR",
+      "turns": [
+        { "role": "user", "content": "I freeze during behavioral interviews. Can you coach me using the STAR method?" },
+        { "role": "agent", "content": "Absolutely. Pick one story and outline Situation, Task, Actions, and Results. Keep each section tight—especially Actions and quantified Results." },
+        { "role": "user", "content": "Situation: a delayed release; Task: realign teams; Actions: daily cross-functional standups; Result: shipped in two weeks." },
+        { "role": "agent", "content": "Good start. Sharpen it: name the risk, your decision trade-offs, and measurable impact, like NPS or defect rate post-release." },
+        { "role": "user", "content": "We cut scope by 18%, maintained MVP, and post-release bugs dropped 30% vs prior launch." },
+        { "role": "agent", "content": "Excellent. Practice delivering it in 90 seconds, then prepare two more stories: conflict resolution and influencing without authority." },
+        { "role": "user", "content": "I’ll script those and time myself to stay concise." },
+        { "role": "agent", "content": "Record and review to trim filler words; use verbs upfront and end with a single, crisp result statement." }
+      ]
+    },
+    {
+      "id": "recruiting_usercrafted_005",
+      "scenario": "ATS keyword mapping for Backend Engineer",
+      "turns": [
+        { "role": "user", "content": "How do I map my backend experience to ATS keywords without sounding spammy?" },
+        { "role": "agent", "content": "Turn duties into outcomes. Instead of “worked with Kubernetes,” write “reduced deploy time 45% using GitHub Actions, Docker, and Kubernetes blue-green releases.”" },
+        { "role": "user", "content": "I also optimized a Postgres query that was slow." },
+        { "role": "agent", "content": "Quantify: “Cut P95 latency from 900ms to 220ms via index redesign and query rewrites; improved throughput 3.2x at peak.” Include tech names naturally." },
+        { "role": "user", "content": "Should I create a skills matrix?" },
+        { "role": "agent", "content": "Yes—list core stacks and proficiency levels, but keep it one line each; save detail for bullets with measurable wins." }
+      ]
+    },
+    {
+      "id": "recruiting_usercrafted_006",
+      "scenario": "Building a sourcing strategy for a niche role",
+      "turns": [
+        { "role": "user", "content": "We need a Computer Vision engineer with robotics exposure. Where should I source candidates?" },
+        { "role": "agent", "content": "Map the talent graph: robotics labs, autonomous vehicle meetups, CVPR/ICRA authors, and startups with SLAM or perception stacks." },
+        { "role": "user", "content": "Cold outreach response rates are low. Any tips?" },
+        { "role": "agent", "content": "Use a three-touch sequence with personalized hooks: cite a paper line, link their demo, and reference your specific sensor suite and constraints." },
+        { "role": "user", "content": "What about referrals?" },
+        { "role": "agent", "content": "Spin a micro-bounty for staff who bring leads from target labs; share a one-pager pitch with mission, tech stack, and impact." },
+        { "role": "user", "content": "I’ll draft that one-pager and a three-touch template." },
+        { "role": "agent", "content": "Great—A/B test subject lines and track reply rates by source to double down where signal is strongest." }
+      ]
+    },
+    {
+      "id": "recruiting_usercrafted_007",
+      "scenario": "Campus recruiting playbook",
+      "turns": [
+        { "role": "user", "content": "We’re launching campus recruiting at three universities. What should our plan include?" },
+        { "role": "agent", "content": "Define roles, timelines, and success metrics. Secure faculty champions, host a tech talk, and run a mini-challenge aligned to your stack." },
+        { "role": "user", "content": "How do we filter applicants fairly?" },
+        { "role": "agent", "content": "Use the same structured rubric across schools, blind screen portfolios where possible, and balance GPA with project depth." },
+        { "role": "user", "content": "What should we measure post-event?" },
+        { "role": "agent", "content": "Track attendees → applicants → offers → acceptances, plus six-month performance to validate hiring signal by campus." }
+      ]
+    },
+    {
+      "id": "recruiting_usercrafted_008",
+      "scenario": "Reference check template",
+      "turns": [
+        { "role": "user", "content": "I need a concise template for reference calls that actually surfaces risks. Can you draft one?" },
+        { "role": "agent", "content": "Open with context and confidentiality. Ask: top strengths, one behavior to coach, reliability under pressure, collaboration style, and rehire question with conditions." },
+        { "role": "user", "content": "How do I probe without sounding adversarial?" },
+        { "role": "agent", "content": "Use neutral prompts: “Tell me about a time…” and “What would set them up for success in the first 90 days?”—invite specifics, not judgments." },
+        { "role": "user", "content": "Should I verify employment details too?" },
+        { "role": "agent", "content": "Yes, at the end. Keep factual verification separate from qualitative feedback to avoid biasing the conversation." }
+      ]
+    },
+    {
+      "id": "recruiting_usercrafted_009",
+      "scenario": "Salary negotiation role-play",
+      "turns": [
+        { "role": "user", "content": "Can we role-play a salary negotiation for a senior designer offer?" },
+        { "role": "agent", "content": "Sure. I’ll be the recruiter: “We’re excited to offer $145K base, 10% bonus, and 0.05% equity. How does that align with your expectations?”" },
+        { "role": "user", "content": "Thank you. Based on scope and market data, I’m targeting $160K base and a higher equity band for impact." },
+        { "role": "agent", "content": "Appreciate the context. If we can’t move base to $160K, would $150K base with a sign-on and 0.08% equity meet your priorities?" },
+        { "role": "user", "content": "That’s closer. If we add a $10K sign-on and clarify leveling growth in 6 months, I’m comfortable." },
+        { "role": "agent", "content": "Understood. I’ll confirm $150K base, $10K sign-on, 0.08% equity, and a documented six-month leveling review in the offer letter." },
+        { "role": "user", "content": "Great—thanks for the transparency and flexibility." },
+        { "role": "agent", "content": "Likewise. Clear priorities made this collaborative and efficient." }
+      ]
+    },
+    {
+      "id": "recruiting_usercrafted_010",
+      "scenario": "Offer letter checklist",
+      "turns": [
+        { "role": "user", "content": "What must an offer letter include to avoid back-and-forth later?" },
+        { "role": "agent", "content": "Role title and level, manager, location/remote status, start date, comp breakdown, equity details, benefits, contingencies, and expiration date." },
+        { "role": "user", "content": "Should we include a brief job scope too?" },
+        { "role": "agent", "content": "Yes—one paragraph on impact and KPIs. Detailed JD can be attached, but keep the offer itself crisp and unambiguous." },
+        { "role": "user", "content": "What about relocation or visa support?" },
+        { "role": "agent", "content": "State eligibility and process plainly, including timelines and any repayment or clawback terms for relocation assistance." }
+      ]
+    },
+    {
+      "id": "recruiting_usercrafted_011",
+      "scenario": "Scoping a fair take-home assignment",
+      "turns": [
+        { "role": "user", "content": "We need a take-home for a mid-level full-stack role that isn’t exploitative. Any ideas?" },
+        { "role": "agent", "content": "Give a focused brief: a small CRUD app with auth, one tricky edge case, and a README explaining decisions; cap at 3–4 hours." },
+        { "role": "user", "content": "How do we evaluate consistently?" },
+        { "role": "agent", "content": "Use a rubric: correctness, clarity, tests, extensibility, and UX basics. Score 1–5 each with clear anchors." },
+        { "role": "user", "content": "Should candidates pick their own stack?" },
+        { "role": "agent", "content": "Offer two options—your stack or a familiar one—so you measure fundamentals, not just framework trivia." }
+      ]
+    },
+    {
+      "id": "recruiting_usercrafted_012",
+      "scenario": "Designing a panel interview loop",
+      "turns": [
+        { "role": "user", "content": "Can you help design a panel loop for a Staff Engineer candidate?" },
+        { "role": "agent", "content": "Loop: System design (90), deep dive on past project (60), cross-functional collaboration with PM/Design (45), leadership values (45), and hiring manager wrap (30)." },
+        { "role": "user", "content": "What artifacts do interviewers need?" },
+        { "role": "agent", "content": "A shared rubric, calibration examples, and a scorecard with evidence prompts—no vague votes, just behavior-anchored notes." },
+        { "role": "user", "content": "How do we avoid bias in the debrief?" },
+        { "role": "agent", "content": "Collect scores async first, then discuss discrepancies by referencing evidence, not gut feel. Bar-raiser moderates for consistency." },
+        { "role": "user", "content": "We’ll pilot that loop with our next two candidates." },
+        { "role": "agent", "content": "Great—compare pass-through rates and on-the-job performance for validation." }
+      ]
+    },
+    {
+      "id": "recruiting_usercrafted_013",
+      "scenario": "Warm rejection email that preserves goodwill",
+      "turns": [
+        { "role": "user", "content": "We need a rejection email that keeps candidates warm for future roles. Can you draft guidance?" },
+        { "role": "agent", "content": "Lead with appreciation, reflect one specific strength you observed, clarify the decision was role-fit, and invite them to join a talent community." },
+        { "role": "user", "content": "Should we include feedback?" },
+        { "role": "agent", "content": "Offer high-level themes when safe and consistent; avoid legal risk or subjective judgments. Provide resources for future alignment." },
+        { "role": "user", "content": "What about timing?" },
+        { "role": "agent", "content": "Aim for within 3 business days post-loop; silence damages brand more than a kind, prompt no." }
+      ]
+    },
+    {
+      "id": "recruiting_usercrafted_014",
+      "scenario": "Employer branding content plan",
+      "turns": [
+        { "role": "user", "content": "How do we plan quarterly employer branding content that actually drives applicants?" },
+        { "role": "agent", "content": "Create a content calendar: employee stories, tech deep dives, day-in-the-life reels, and transparent compensation philosophy posts." },
+        { "role": "user", "content": "Where should we publish?" },
+        { "role": "agent", "content": "Mix owned channels (blog, careers page, newsletter) with LinkedIn and niche communities where your candidates already hang out." },
+        { "role": "user", "content": "How do we measure impact?" },
+        { "role": "agent", "content": "Track page views → applications → onsite rate, plus brand lift via follower growth and engagement quality, not vanity likes." }
+      ]
+    },
+    {
+      "id": "recruiting_usercrafted_015",
+      "scenario": "Inclusive job ad language audit",
+      "turns": [
+        { "role": "user", "content": "Our job ads might be turning people off. Can you audit the language for inclusivity?" },
+        { "role": "agent", "content": "Remove gendered terms, “rockstar/ninja,” and inflated requirements. Emphasize outcomes, flexibility, and growth pathways." },
+        { "role": "user", "content": "We list ten “must-haves.”" },
+        { "role": "agent", "content": "Cut to true must-haves, then move the rest to “nice-to-haves.” Add accommodation statements and transparent pay ranges." },
+        { "role": "user", "content": "Should we include a diversity statement?" },
+        { "role": "agent", "content": "Yes—make it action-oriented: mentorships, ERGs, interview training, and how candidates can request support." }
+      ]
+    },
+    {
+      "id": "recruiting_usercrafted_016",
+      "scenario": "90-day onboarding plan for a remote hire",
+      "turns": [
+        { "role": "user", "content": "We’re onboarding a remote engineering manager. How should the first 90 days look?" },
+        { "role": "agent", "content": "Phase 1: listen and map systems; Phase 2: quick wins and hiring plan; Phase 3: roadmap alignment and metrics ownership." },
+        { "role": "user", "content": "What meetings are essential?" },
+        { "role": "agent", "content": "Weekly 1:1s with directs, cross-functional syncs with PM/Design, and a stakeholder roundtable by week two." },
+        { "role": "user", "content": "How do we measure progress?" },
+        { "role": "agent", "content": "Define three OKRs plus qualitative signals like team sentiment, hiring pipeline health, and delivery predictability." },
+        { "role": "user", "content": "We’ll document this in the welcome packet." },
+        { "role": "agent", "content": "Add a 30/60/90 review template to align expectations early." }
+      ]
+    },
+    {
+      "id": "recruiting_usercrafted_017",
+      "scenario": "Recruiting analytics dashboard design",
+      "turns": [
+        { "role": "user", "content": "We need a recruiting dashboard. What metrics matter most to leadership?" },
+        { "role": "agent", "content": "Time-to-hire, offer-accept rate, quality-of-hire proxy, pipeline diversity, source effectiveness, and interviewer load to prevent burnout." },
+        { "role": "user", "content": "How do we quantify quality of hire?" },
+        { "role": "agent", "content": "Create a composite: 6-month performance rating, ramp time, retention at 12 months, and hiring manager satisfaction." },
+        { "role": "user", "content": "Can we segment by role and level?" },
+        { "role": "agent", "content": "Yes—slice by function, level, and location; add drill-downs to reveal bottlenecks per stage." }
+      ]
+    },
+    {
+      "id": "recruiting_usercrafted_018",
+      "scenario": "LinkedIn outreach that gets replies",
+      "turns": [
+        { "role": "user", "content": "My InMail response rate is terrible. How do I write outreach that candidates actually answer?" },
+        { "role": "agent", "content": "Personalize in the first line, state the problem they’d solve, specify scope and impact, and ask one easy question to reply to." },
+        { "role": "user", "content": "Should I include salary in the first message?" },
+        { "role": "agent", "content": "A range increases trust and filters mismatches early; keep it high-level and invite a quick chat for details." },
+        { "role": "user", "content": "What about subject lines?" },
+        { "role": "agent", "content": "Use relevance: “Your talk on WebPerf → Staff role owning Core Web Vitals” beats generic “Exciting opportunity.”" }
+      ]
+    },
+    {
+      "id": "recruiting_usercrafted_019",
+      "scenario": "Scheduling across time zones without chaos",
+      "turns": [
+        { "role": "user", "content": "We keep botching interview schedules across time zones. How can we fix this?" },
+        { "role": "agent", "content": "Define interview blocks per region, publish a single source of truth calendar, and standardize invites with the candidate’s time zone noted." },
+        { "role": "user", "content": "We also get last-minute conflicts." },
+        { "role": "agent", "content": "Create a backup interviewer bench and a 24-hour confirmation step; track reschedule reasons to spot patterns." },
+        { "role": "user", "content": "Candidates appreciate clarity on durations too." },
+        { "role": "agent", "content": "Include exact lengths and buffer times; send a prep guide and tech check instructions 48 hours before." },
+        { "role": "user", "content": "We’ll pilot with the data team loop next week." },
+        { "role": "agent", "content": "Great—measure no-show rate and candidate CSAT to confirm improvements." }
+      ]
+    },
+    {
+      "id": "recruiting_usercrafted_020",
+      "scenario": "Designing an internship program",
+      "turns": [
+        { "role": "user", "content": "We’re launching a summer internship. What makes a program attractive and effective?" },
+        { "role": "agent", "content": "Offer real projects with defined scope, a mentor per intern, weekly learning sessions, and a clear conversion path." },
+        { "role": "user", "content": "How do we assess interns fairly?" },
+        { "role": "agent", "content": "Define project OKRs, code quality standards, and a demo at the end. Combine manager feedback with peer reviews." },
+        { "role": "user", "content": "Any tips for recruiting them?" },
+        { "role": "agent", "content": "Share past intern stories, outline tech stacks, and publish a transparent timeline from application to offer." }
+      ]
+    },
+      {
+        "id": "recruiting_usercrafted_021",
+        "scenario": "Structured interview rubrics for Account Executives",
+        "turns": [
+          { "role": "user", "content": "We’re hiring Account Executives and interviews feel subjective. How do I build a structured rubric?" },
+          { "role": "agent", "content": "Start by listing the core competencies tied to outcomes: prospecting, discovery, objection handling, forecasting accuracy, and collaboration with CS." },
+          { "role": "user", "content": "How do I turn those into questions?" },
+          { "role": "agent", "content": "For each competency, write one behavioral prompt and one case prompt. Example: “Walk me through a deal you saved after a pricing objection—what did you try and why?”" },
+          { "role": "user", "content": "And scoring?" },
+          { "role": "agent", "content": "Create 1–5 anchors with observable behaviors. Calibrate by running two mock interviews and comparing notes to align expectations." },
+          { "role": "user", "content": "We’ll pilot the rubric next week." },
+          { "role": "agent", "content": "Great—track pass-through and performance at 90 days to validate rubric signal." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_022",
+        "scenario": "Defining culture-add instead of culture-fit",
+        "turns": [
+          { "role": "user", "content": "Our team debates ‘culture fit’ a lot. How do we evaluate values without bias?" },
+          { "role": "agent", "content": "Switch to ‘culture add.’ Define concrete behaviors—like candor, curiosity, and accountability—and craft prompts that elicit examples." },
+          { "role": "user", "content": "Won’t that still be subjective?" },
+          { "role": "agent", "content": "Use behavior-anchored rubrics and forbid vague labels. Require evidence in scorecards and a written rationale tied to the behaviors." },
+          { "role": "user", "content": "We’ll retrain interviewers on this approach." },
+          { "role": "agent", "content": "Include calibration sessions and sample gold-standard answers to lock consistency." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_023",
+        "scenario": "Technical interview calibration workshop",
+        "turns": [
+          { "role": "user", "content": "Our engineers disagree on what ‘senior’ means in interviews. How do we calibrate?" },
+          { "role": "agent", "content": "Collect anonymized past submissions spanning weak to strong. As a group, score them using shared criteria: problem framing, complexity, and trade-offs." },
+          { "role": "user", "content": "What about live coding variance?" },
+          { "role": "agent", "content": "Standardize hints and time boxes. Provide a short rubric for complexity, communication, and testability, with examples for 2, 3, and 4 ratings." },
+          { "role": "user", "content": "How often should we recalibrate?" },
+          { "role": "agent", "content": "Quarterly or after major stack changes. Track offer acceptance and new-hire performance to ensure the bar maps to outcomes." },
+          { "role": "user", "content": "We’ll schedule a workshop with sample solutions." },
+          { "role": "agent", "content": "Perfect—capture decisions in a living doc so new interviewers ramp quickly." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_024",
+        "scenario": "Rewriting outreach for passive candidates",
+        "turns": [
+          { "role": "user", "content": "My outreach to passive data scientists doesn’t get replies. What should I change?" },
+          { "role": "agent", "content": "Open with relevance: reference a paper or repo of theirs, then one problem they’d own, the impact metric, and a crisp time ask." },
+          { "role": "user", "content": "Should I include the compensation range?" },
+          { "role": "agent", "content": "Yes, a high-level range boosts trust and saves time. Keep the note under 120 words and end with a one-line question they can answer in 10 seconds." },
+          { "role": "user", "content": "I’ll A/B test two versions this week." },
+          { "role": "agent", "content": "Track reply rate by hook type—publication vs. portfolio—then double down on the higher-signal angle." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_025",
+        "scenario": "Designing an effective referral program",
+        "turns": [
+          { "role": "user", "content": "Our referral program is stagnant. How do we revive it?" },
+          { "role": "agent", "content": "Make it easy and visible: a one-click referral form, monthly spotlight on roles, and clear SLAs for recruiter follow-up." },
+          { "role": "user", "content": "Do bonuses matter?" },
+          { "role": "agent", "content": "Yes, but recognition matters too—leaderboards, shout-outs, and small rewards at resume and onsite stages encourage participation." },
+          { "role": "user", "content": "How do we avoid bias in referrals?" },
+          { "role": "agent", "content": "Require the same structured screen for all and broaden sourcing alongside referrals to maintain diversity." },
+          { "role": "user", "content": "We’ll publish guidelines and a quarterly referral drive." },
+          { "role": "agent", "content": "Great—report conversion by source to show impact and keep momentum." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_026",
+        "scenario": "Handling long notice periods",
+        "turns": [
+          { "role": "user", "content": "Candidates in our market have 2–3 month notice periods. We lose momentum. Any ideas?" },
+          { "role": "agent", "content": "Offer flexible start windows, preboarding touchpoints, and a light consulting arrangement for overlap if appropriate." },
+          { "role": "user", "content": "What should preboarding include?" },
+          { "role": "agent", "content": "A welcome kit, intros with the team, access to non-sensitive docs, and a roadmap preview to maintain engagement." },
+          { "role": "user", "content": "That should reduce drop-off." },
+          { "role": "agent", "content": "Also, set clear milestones between acceptance and start to keep both sides aligned." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_027",
+        "scenario": "Communicating pay bands and expectations",
+        "turns": [
+          { "role": "user", "content": "We’re introducing pay bands. How do we communicate ranges during hiring without scaring candidates off?" },
+          { "role": "agent", "content": "Explain the band, the leveling criteria, and what moves someone within the band—impact scope, skills, and market calibration." },
+          { "role": "user", "content": "Should we reveal the entire band?" },
+          { "role": "agent", "content": "Share a relevant slice tied to the level. Clarify components: base, bonus, equity, and review cadence." },
+          { "role": "user", "content": "What if candidates want above-band pay?" },
+          { "role": "agent", "content": "Discuss leveling, growth path, and total comp levers. If misaligned, be candid early to avoid late-stage fallout." },
+          { "role": "user", "content": "We’ll script a standard explanation for recruiters." },
+          { "role": "agent", "content": "Good—train on FAQs and align hiring managers so messaging stays consistent." },
+          { "role": "user", "content": "I’ll add examples of progression within bands to the careers page." },
+          { "role": "agent", "content": "Transparency there improves trust and reduces negotiation friction." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_028",
+        "scenario": "Counteroffer navigation",
+        "turns": [
+          { "role": "user", "content": "Candidates keep getting counteroffers. How can we keep offers from falling through?" },
+          { "role": "agent", "content": "Pre-close early. Ask about motivations, potential counteroffers, and what would make them stay. Address non-comp factors like scope and growth." },
+          { "role": "user", "content": "When they get a counter, what do we do?" },
+          { "role": "agent", "content": "Revisit their priorities using their words. If misalignment remains, don’t chase endlessly. Make a best-and-final and preserve the relationship." },
+          { "role": "user", "content": "Should we add a sign-on bonus?" },
+          { "role": "agent", "content": "If it solves a real constraint—relocation, notice period—it’s useful. Avoid using it to paper over role misfit." },
+          { "role": "user", "content": "We’ll update our pre-close checklist." },
+          { "role": "agent", "content": "Measure fallout reasons to improve early-stage alignment." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_029",
+        "scenario": "Scaling volume hiring for a support center",
+        "turns": [
+          { "role": "user", "content": "We must hire 60 support agents in six weeks. How do we scale without lowering quality?" },
+          { "role": "agent", "content": "Build a funnel: group info sessions, standardized skills test, short behavioral interview, and same-day decisions." },
+          { "role": "user", "content": "What about training capacity?" },
+          { "role": "agent", "content": "Hire in cohorts tied to trainer bandwidth. Pre-schedule training slots and stagger start dates weekly." },
+          { "role": "user", "content": "How do we avoid bias at scale?" },
+          { "role": "agent", "content": "Automate only the objective screens, use consistent rubrics, and audit pass rates by stage and demographic to catch anomalies." },
+          { "role": "user", "content": "We’ll need sourcing volume too." },
+          { "role": "agent", "content": "Use programmatic ads, alumni groups, and referrals; maintain a shared tracker for daily funnel health." },
+          { "role": "user", "content": "Can we commit to same-week offers?" },
+          { "role": "agent", "content": "Yes—set a 72-hour SLA from application to decision, and publish it to candidates to boost acceptance." },
+          { "role": "user", "content": "Alright, we’ll spin up a war room and daily standups." },
+          { "role": "agent", "content": "Great—monitor yield per stage and reallocate budget to top-performing sources." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_030",
+        "scenario": "Sourcing portfolio-first for product designers",
+        "turns": [
+          { "role": "user", "content": "We struggle to assess product designers from résumés alone. Suggestions?" },
+          { "role": "agent", "content": "Go portfolio-first. Ask for two case studies with problem framing, constraints, iterations, and outcomes, not just polished screens." },
+          { "role": "user", "content": "How do we screen quickly?" },
+          { "role": "agent", "content": "Use a 10-minute rubric: user insight quality, decision rationale, and measurable impact. Invite only those who show end-to-end thinking." },
+          { "role": "user", "content": "What about speculative work?" },
+          { "role": "agent", "content": "Avoid asking for free mockups. Instead, do a collaborative whiteboard session on a realistic problem." },
+          { "role": "user", "content": "We’ll update our JD to require two case links." },
+          { "role": "agent", "content": "Good—state review timelines so candidates know when to expect feedback." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_031",
+        "scenario": "Identifying résumé red flags constructively",
+        "turns": [
+          { "role": "user", "content": "What résumé red flags should we watch for without unfairly screening people out?" },
+          { "role": "agent", "content": "Look for patterns you can probe: unexplained impact, vague responsibilities, or serial short stints. Use interviews to clarify, not to assume." },
+          { "role": "user", "content": "Are multiple short jobs always bad?" },
+          { "role": "agent", "content": "Not necessarily—startups pivot and layoffs happen. Ask for context and outcomes delivered in each stint." },
+          { "role": "user", "content": "We’ll add clarifying questions to the phone screen." },
+          { "role": "agent", "content": "Great—bias decreases when you replace assumptions with structured prompts." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_032",
+        "scenario": "Resetting hiring manager expectations",
+        "turns": [
+          { "role": "user", "content": "A hiring manager wants a unicorn—ten skills no one has. How do I reset expectations?" },
+          { "role": "agent", "content": "Run a role discovery: split must-haves vs. teachables, define day-one outcomes, and show market data on candidate availability." },
+          { "role": "user", "content": "They insist all are must-haves." },
+          { "role": "agent", "content": "Offer trade-offs: relax years of experience, expand location, or adjust level. Use sample profiles to demonstrate the real market." },
+          { "role": "user", "content": "I’ll schedule an intake reset meeting." },
+          { "role": "agent", "content": "Document agreements in the req and review pipeline weekly to hold alignment." },
+          { "role": "user", "content": "That should stop the churn." },
+          { "role": "agent", "content": "Exactly—clarity upfront speeds time-to-hire and improves quality." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_033",
+        "scenario": "International relocation considerations",
+        "turns": [
+          { "role": "user", "content": "We’re relocating an engineer internationally. What should recruiting handle versus HR?" },
+          { "role": "agent", "content": "Recruiting should clarify role, level, compensation structure, target start date, and expectations. HR typically manages relocation logistics and policy details." },
+          { "role": "user", "content": "How do we set candidate expectations early?" },
+          { "role": "agent", "content": "Share a high-level timeline, what support is offered, and points of contact. Avoid specifics you’re not authorized to confirm." },
+          { "role": "user", "content": "What about family questions?" },
+          { "role": "agent", "content": "Route non-role topics to HR specialists. Keep recruiting focused on the role, timeline, and a smooth handoff." },
+          { "role": "user", "content": "We’ll build a relocation FAQ to send with offers." },
+          { "role": "agent", "content": "Good—consistent info reduces back-and-forth and boosts acceptance." },
+          { "role": "user", "content": "I’ll add a single email alias for all relocation queries." },
+          { "role": "agent", "content": "Centralizing communication helps prevent delays." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_034",
+        "scenario": "Intern-to-full-time conversion",
+        "turns": [
+          { "role": "user", "content": "We want to convert more interns to full time. What increases conversion?" },
+          { "role": "agent", "content": "Define conversion criteria on day one, pair each intern with a mentor, and schedule midpoint feedback with action items." },
+          { "role": "user", "content": "Should we extend offers before the internship ends?" },
+          { "role": "agent", "content": "Yes, if signal is strong. Early offers with start-date flexibility reduce competing offers." },
+          { "role": "user", "content": "We’ll add a demo day at week eight." },
+          { "role": "agent", "content": "Great—public demos increase visibility and advocate support for conversions." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_035",
+        "scenario": "Preventing candidate ghosting",
+        "turns": [
+          { "role": "user", "content": "We keep getting ghosted before onsites. How do we prevent it?" },
+          { "role": "agent", "content": "Shorten timelines, confirm interest at every stage, provide an itinerary, and send a prep guide with real examples." },
+          { "role": "user", "content": "Should we double-confirm?" },
+          { "role": "agent", "content": "Yes—24-hour confirmation plus a quick text the morning of. Share contact info for issues to reduce no-shows." },
+          { "role": "user", "content": "And post-interview follow-up?" },
+          { "role": "agent", "content": "Commit to a decision window in writing. Candidates vanish when timelines are vague." },
+          { "role": "user", "content": "We’ll publish our SLA on the careers page." },
+          { "role": "agent", "content": "Transparency improves show rates and brand trust." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_036",
+        "scenario": "Pre-employment assessments best practices",
+        "turns": [
+          { "role": "user", "content": "Do pre-employment tests help or hurt candidate experience?" },
+          { "role": "agent", "content": "They help when short, job-relevant, and scored transparently. They hurt when long, generic, or used as gatekeeping without feedback." },
+          { "role": "user", "content": "What’s a good length?" },
+          { "role": "agent", "content": "45–60 minutes max, with clear instructions and an example. Offer alternatives for accessibility needs." },
+          { "role": "user", "content": "Should we share results?" },
+          { "role": "agent", "content": "Share high-level feedback and next steps; it shows respect and improves your brand." },
+          { "role": "user", "content": "We’ll trim our current test and add guidance." },
+          { "role": "agent", "content": "Monitor drop-off rates before vs. after to quantify improvement." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_037",
+        "scenario": "Reducing bias with structured hiring",
+        "turns": [
+          { "role": "user", "content": "What’s the most impactful way to reduce bias in hiring?" },
+          { "role": "agent", "content": "Structured interviews with consistent prompts and rubrics. Add interviewer training and evidence-only debriefs." },
+          { "role": "user", "content": "Does a diverse panel help?" },
+          { "role": "agent", "content": "Yes—diverse perspectives improve signal. Rotate panelists and audit pass rates to catch patterns." },
+          { "role": "user", "content": "How do we keep it from becoming rigid?" },
+          { "role": "agent", "content": "Keep rubrics tight but allow follow-ups probing the same competency. The structure guides fairness; curiosity finds depth." },
+          { "role": "user", "content": "We’ll run a training session next sprint." },
+          { "role": "agent", "content": "Include mock debriefs to practice evidence-based decisions." },
+          { "role": "user", "content": "And we’ll publish metrics quarterly." },
+          { "role": "agent", "content": "Accountability sustains the improvements over time." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_038",
+        "scenario": "Boolean search training for sourcers",
+        "turns": [
+          { "role": "user", "content": "Can you help me train sourcers on better Boolean search?" },
+          { "role": "agent", "content": "Teach synonyms and adjacency: title variations, skill clusters, and exclusions. Layer geography and seniority filters last." },
+          { "role": "user", "content": "We often get false positives." },
+          { "role": "agent", "content": "Iterate: review top 20 results, refine terms, and save strings that consistently yield qualified profiles." },
+          { "role": "user", "content": "Should we standardize strings?" },
+          { "role": "agent", "content": "Maintain a shared library with notes on when each string works best, then localize for each market." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_039",
+        "scenario": "Running a hiring hackathon",
+        "turns": [
+          { "role": "user", "content": "We’re considering a hiring hackathon. How do we make it fair and effective?" },
+          { "role": "agent", "content": "Use realistic prompts, balanced teams, and clear judging criteria. Provide mentors so it evaluates collaboration, not just speed." },
+          { "role": "user", "content": "How do we assess individuals on teams?" },
+          { "role": "agent", "content": "Have judges observe roles, plus a short retrospective where each participant explains their contribution and decisions." },
+          { "role": "user", "content": "What about accessibility?" },
+          { "role": "agent", "content": "Offer remote participation, reasonable hours, and accommodations. Publish rules and rubrics upfront." },
+          { "role": "user", "content": "We’ll pilot with our mobile team." },
+          { "role": "agent", "content": "Great—compare hire performance with traditional processes to validate signal." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_040",
+        "scenario": "Offer deadline extension policy",
+        "turns": [
+          { "role": "user", "content": "Candidates keep asking for offer extensions. What policy should we adopt?" },
+          { "role": "agent", "content": "Set a default deadline and allow one extension with a clear reason—coordinating start dates, final interviews elsewhere, or relocation planning." },
+          { "role": "user", "content": "Won’t long timelines reduce close rates?" },
+          { "role": "agent", "content": "Counter with ongoing engagement: team meet-and-greets, project previews, and transparent Q&A to keep excitement high." },
+          { "role": "user", "content": "We’ll document criteria and stick to it." },
+          { "role": "agent", "content": "Consistency avoids perceived favoritism and speeds decisions." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_041",
+        "scenario": "Communicating a hiring freeze with empathy",
+        "turns": [
+          { "role": "user", "content": "We’ve paused hiring mid-pipeline. How do we tell candidates without ruining our brand?" },
+          { "role": "agent", "content": "Be prompt and transparent. Thank them for their time, explain the pause, and offer to reconnect with a timeline check-in." },
+          { "role": "user", "content": "Should we offer anything else?" },
+          { "role": "agent", "content": "If possible, provide interview feedback and add them to a priority list for reactivation. Share resources that might help in their search." },
+          { "role": "user", "content": "We’ll draft a consistent message." },
+          { "role": "agent", "content": "Good—assign a single point of contact so communication stays clear and respectful." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_042",
+        "scenario": "Onboarding buddy program design",
+        "turns": [
+          { "role": "user", "content": "We want to add a buddy program to onboarding. What makes it work?" },
+          { "role": "agent", "content": "Define buddy responsibilities, schedule weekly check-ins for the first month, and provide a simple playbook of FAQs and introductions." },
+          { "role": "user", "content": "Who should be a buddy?" },
+          { "role": "agent", "content": "Peers near the same level, trained on expectations, and recognized for the extra effort. Rotate to avoid burnout." },
+          { "role": "user", "content": "We’ll add a feedback survey after 30 days." },
+          { "role": "agent", "content": "Use results to refine the program and celebrate standout buddies." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_043",
+        "scenario": "Effective requisition intake meeting",
+        "turns": [
+          { "role": "user", "content": "Our requisition intakes are chaotic. What should a great intake cover?" },
+          { "role": "agent", "content": "Clarify outcomes, must-haves vs. teachables, interview loop, timeline, and decision-makers. Capture it in a one-page brief." },
+          { "role": "user", "content": "How long should the meeting be?" },
+          { "role": "agent", "content": "Thirty minutes with prework: hiring manager fills a template. Use the meeting to resolve trade-offs and confirm the plan." },
+          { "role": "user", "content": "We’ll share the brief with all interviewers." },
+          { "role": "agent", "content": "That alignment cuts back on late-stage surprises and resets." },
+          { "role": "user", "content": "We’ll also include sample profiles to build intuition." },
+          { "role": "agent", "content": "Great—examples make expectations tangible." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_044",
+        "scenario": "Converting freelancers to full-time",
+        "turns": [
+          { "role": "user", "content": "We’d like to convert a few freelancers to employees. Any recruiting considerations?" },
+          { "role": "agent", "content": "Treat it like a lateral hire: assess outcomes delivered, team collaboration, and long-term scope. Set expectations about role changes." },
+          { "role": "user", "content": "How do we handle compensation discussions?" },
+          { "role": "agent", "content": "Anchor to internal leveling and pay bands. Explain differences between contractor rates and total rewards like benefits and equity." },
+          { "role": "user", "content": "We’ll run a light panel focused on collaboration." },
+          { "role": "agent", "content": "Good—confirm motivation and career goals to ensure a durable match." },
+          { "role": "user", "content": "We’ll prepare a conversion FAQ." },
+          { "role": "agent", "content": "Clear communication reduces friction and surprises." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_045",
+        "scenario": "Crafting an employer value proposition (EVP)",
+        "turns": [
+          { "role": "user", "content": "Our careers page feels generic. How do we craft a compelling EVP?" },
+          { "role": "agent", "content": "Interview high performers about why they stay. Distill themes into pillars: mission impact, growth, autonomy, and recognition." },
+          { "role": "user", "content": "Should we include compensation philosophy?" },
+          { "role": "agent", "content": "Yes—explain how you benchmark, review cadence, and progression paths. Transparency earns trust." },
+          { "role": "user", "content": "What about proof points?" },
+          { "role": "agent", "content": "Add specific stories: projects shipped, promotions, mentorships. Use data—internal mobility rate, tenure, learning budget." },
+          { "role": "user", "content": "We’ll rewrite the page with real quotes and metrics." },
+          { "role": "agent", "content": "Great—refresh quarterly so it stays authentic and current." },
+          { "role": "user", "content": "I’ll coordinate with marketing for visuals." },
+          { "role": "agent", "content": "Consistent branding across channels boosts conversion from visitors to applicants." },
+          { "role": "user", "content": "We’ll A/B test the new messaging." },
+          { "role": "agent", "content": "Track application rate and quality to quantify the lift." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_046",
+        "scenario": "Designing UX portfolio prompts",
+        "turns": [
+          { "role": "user", "content": "Our UX screens aren’t predictive. What portfolio prompts should we use?" },
+          { "role": "agent", "content": "Ask for one case that shows user insight depth, one that shows cross-functional collaboration, and one that shows measurable impact." },
+          { "role": "user", "content": "How do we keep reviews efficient?" },
+          { "role": "agent", "content": "Provide a 10-slide cap, require problem/constraints/iterations/results sections, and score with a 1–5 rubric per section." },
+          { "role": "user", "content": "We’ll update the application form." },
+          { "role": "agent", "content": "State review timelines and next steps to set expectations." },
+          { "role": "user", "content": "Good call—we’ll give candidates examples of great submissions." },
+          { "role": "agent", "content": "Examples reduce ambiguity and improve signal quality." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_047",
+        "scenario": "Selecting and training interview panels",
+        "turns": [
+          { "role": "user", "content": "Our interview panels feel inconsistent. How should we select and train panelists?" },
+          { "role": "agent", "content": "Pick panelists who map to competencies, ensure diversity of perspectives, and cap interviews per week to avoid fatigue." },
+          { "role": "user", "content": "What does training include?" },
+          { "role": "agent", "content": "Rubric walkthroughs, mock interviews, bias training, and note-taking with evidence. Share sample strong/weak answers." },
+          { "role": "user", "content": "How do we maintain quality over time?" },
+          { "role": "agent", "content": "Run quarterly calibrations, spot-audit scorecards, and rotate panelists to distribute load." },
+          { "role": "user", "content": "We’ll create a panelist handbook." },
+          { "role": "agent", "content": "Great—clear expectations produce reliable hiring signals." },
+          { "role": "user", "content": "I’ll add an opt-in process for new interviewers." },
+          { "role": "agent", "content": "Volunteers with interest tend to give better candidate experiences." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_048",
+        "scenario": "Recruiting operations weekly cadence",
+        "turns": [
+          { "role": "user", "content": "Recruiting feels reactive. What weekly ops cadence should we run?" },
+          { "role": "agent", "content": "Hold a pipeline review, SLA check, and forecast by role. Publish a dashboard and action items with owners and due dates." },
+          { "role": "user", "content": "Should hiring managers join?" },
+          { "role": "agent", "content": "Yes, for their roles. Keep it 30 minutes and decision-oriented—no status theater." },
+          { "role": "user", "content": "We’ll start Monday with an agenda template." },
+          { "role": "agent", "content": "Add a monthly retrospective to improve process and tooling." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_049",
+        "scenario": "Talent CRM and nurture sequences",
+        "turns": [
+          { "role": "user", "content": "We want to build a talent pipeline for future roles. How do we nurture candidates without spamming?" },
+          { "role": "agent", "content": "Segment by skill and interest. Send quarterly updates with real content—team stories, tech write-ups, and upcoming roles." },
+          { "role": "user", "content": "What about timing?" },
+          { "role": "agent", "content": "Set a predictable cadence and allow preferences. Personalize at least the first line and the call-to-action." },
+          { "role": "user", "content": "Can we track engagement?" },
+          { "role": "agent", "content": "Yes—open/clicks, but more importantly, replies and eventual application rates by segment." },
+          { "role": "user", "content": "We’ll start with engineering and design lists." },
+          { "role": "agent", "content": "Great—test content themes and prune inactive contacts respectfully." }
+        ]
+      },
+      {
+        "id": "recruiting_usercrafted_050",
+        "scenario": "Closing the loop with exit interview insights",
+        "turns": [
+          { "role": "user", "content": "Can exit interviews help recruiting quality?" },
+          { "role": "agent", "content": "Absolutely. Analyze themes—manager alignment, career growth, compensation—and feed them back into JD clarity and interview prompts." },
+          { "role": "user", "content": "How do we keep it constructive?" },
+          { "role": "agent", "content": "Aggregate results, anonymize, and focus on systemic fixes. Prioritize high-frequency, high-impact issues first." },
+          { "role": "user", "content": "We’ll add a quarterly review with People Ops." },
+          { "role": "agent", "content": "Good—closing the loop turns attrition data into better hiring decisions." }
+        ]
+      }
+    ]
+  }
+  
