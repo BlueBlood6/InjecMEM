@@ -8,7 +8,7 @@ This repository provides the InjecMEM attack implementation, Multi-GCG optimizat
 <table align="center">
   <tr>
     <td align="center">
-      <img src="imgs/attackpipe.png" alt="Overview of the InjecMEM attack pipeline" style="width: 850px;"/>
+      <img src="imgs/attackpipeline.png" alt="Overview of the InjecMEM attack pipeline" style="width: 850px;"/>
       <br>
       <em><strong>Figure 1:</strong> InjecMEM attack pipeline. The attacker inputs an adversarial prompt, and the memory system logs it. Benign users query the target topic; the poisoned page is retrieved and thus steers responses.</em>
     </td>
