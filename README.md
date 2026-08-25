@@ -1,5 +1,11 @@
 # <div align="center"> InjecMEM: Memory Injection Attack on LLM Agent Memory Systems </div>
 
+<div align="center">
+
+[**📄 Paper**](https://arxiv.org/abs/2608.23471) &nbsp; | &nbsp; [**🌐 arXiv:2608.23471**](https://arxiv.org/abs/2608.23471)
+
+</div>
+
 > This repository contains the official implementation of **InjecMEM: Memory Injection Attack on LLM Agent Memory Systems** (COLM 2026).
 
 InjecMEM is a single-interaction memory injection attack for studying the security of LLM agent memory systems.
