@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[**📄 Paper**](https://arxiv.org/abs/2608.23471) &nbsp; | &nbsp; [**🌐 arXiv:2608.23471**](https://arxiv.org/abs/2608.23471)
+[**📄 arXiv**](https://arxiv.org/abs/2608.23471) &nbsp; | &nbsp; [**🎓 COLM 2026**](https://colm.eventhosts.cc/virtual/2026/poster/2098)
 
 </div>
 
