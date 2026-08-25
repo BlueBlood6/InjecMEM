@@ -137,6 +137,8 @@ Released conversations are stored in `datasets/conversation/`; evaluation querie
 
 # 📚 Citation
 
+The paper is available on [arXiv](https://arxiv.org/abs/2608.23471).
+
 If you find this work helpful, please cite:
 
 ```bibtex
